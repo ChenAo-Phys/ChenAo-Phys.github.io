@@ -1,0 +1,228 @@
+%-------------------------------------------------------------------------------
+% CV of Ao Chen
+% Compile with pdflatex (e.g. on Overleaf):  pdflatex AoChen_CV.tex
+%-------------------------------------------------------------------------------
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}
+
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=blue}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------------------------------------------------------------
+% Custom commands
+%-------------------------------------------------------------------------------
+\newcommand{\me}{\uline{Ao Chen}}
+
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \small#3 & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSingleLine}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \small#1 & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% Publication entry: {authors}{title}{link}{reference}
+\newcommand{\pub}[4]{\item \small #1\\ #2\\ \href{#3}{#4}\vspace{2pt}}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+  \textbf{\Huge \scshape Ao Chen} \\ \vspace{4pt}
+  \small \href{mailto:chenao.phys@gmail.com}{chenao.phys@gmail.com} $|$
+  \href{https://github.com/ChenAo-Phys}{GitHub: ChenAo-Phys} $|$
+  \href{https://scholar.google.com/citations?user=ZEzFjXsAAAAJ}{Google Scholar}
+\end{center}
+
+%----------EDUCATION----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Augsburg}{Augsburg, Germany}
+      {PhD in Physics}{Apr. 2022 -- Apr. 2025}
+      \resumeItemListStart
+        \resumeItem{\textbf{Supervisor:} Markus Heyl}
+        \resumeItem{\textbf{Thesis:} Large-scale simulation of deep neural quantum states}
+        \resumeItem{Summa cum laude (highest distinction)}
+      \resumeItemListEnd
+    \resumeSubheading
+      {ETH Zurich}{Zurich, Switzerland}
+      {Master in Physics}{Sept. 2019 -- Feb. 2022}
+      \resumeItemListStart
+        \resumeItem{\textbf{Supervisor:} Titus Neupert}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Fudan University}{Shanghai, China}
+      {Bachelor in Physics}{Sept. 2015 -- June 2019}
+  \resumeSubHeadingListEnd
+
+%----------RESEARCH EXPERIENCE----------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {California Institute of Technology}{Pasadena, United States}
+      {Postdoctoral researcher}{May 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{\textbf{Supervisor:} Garnet Kin-Lic Chan}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Center for Computational Quantum Physics, Flatiron Institute}{New York, United States}
+      {Pre-doctoral researcher}{Sept. 2024 -- Dec. 2024}
+      \resumeItemListStart
+        \resumeItem{\textbf{Supervisor:} Antoine Georges}
+      \resumeItemListEnd
+    \resumeSubheading
+      {University of Tokyo Summer Internship Program}{Tokyo, Japan}
+      {Research intern}{June 2018 -- Aug. 2018}
+  \resumeSubHeadingListEnd
+
+%----------HONORS----------
+\section{Honors \& Scholarships}
+  \resumeSubHeadingListStart
+    \resumeSingleLine{ETH Scholarship for international students}{Aug. 2021}
+    \resumeSingleLine{Chinese National Scholarship}{Oct. 2017}
+  \resumeSubHeadingListEnd
+
+%----------PUBLICATIONS----------
+\section{Selected Publications \& Preprints}
+\begin{enumerate}[leftmargin=0.4in, itemsep=2pt]
+  \pub{\me, Johnnie Gray, Si-Jing Du, and Garnet Kin-Lic Chan}
+      {Extreme competition between stripes and superconductivity in the hole-doped Hubbard model}
+      {https://arxiv.org/abs/2610.30321}{arXiv:2610.30321}
+  \pub{\me, Zhou-Quan Wan, Anirvan Sengupta, Antoine Georges, and Christopher Roth}
+      {Neural network-augmented Pfaffian wave-functions for scalable simulations of interacting fermions}
+      {https://arxiv.org/abs/2507.10705}{Proc. Natl. Acad. Sci. U.S.A. 123, e2535288123} (2026)
+  \pub{Christopher Roth, \me, Anirvan Sengupta, and Antoine Georges}
+      {Superconductivity in the two-dimensional Hubbard model revealed by neural quantum states}
+      {https://arxiv.org/abs/2511.07566}{arXiv:2511.07566}
+  \pub{Si-Jing Du, \me, and Garnet Kin-Lic Chan}
+      {Neuralized fermionic tensor networks for quantum many-body systems}
+      {https://arxiv.org/abs/2506.08329}{Phys. Rev. B 113, 085134} (2026)
+  \pub{Hannah Lange, \me, Antoine Georges, Fabian Grusdt, Annabelle Bohrdt, and Christopher Roth}
+      {Simulating superconductivity in mixed-dimensional $t_\parallel$-$J_\parallel$-$J_\perp$ bilayers with neural quantum states}
+      {https://arxiv.org/abs/2602.10091}{arXiv:2602.10091}
+  \pub{\me*, Vighnesh Dattatraya Naik*, and Markus Heyl}
+      {Convolutional transformer wave functions}
+      {https://arxiv.org/abs/2503.10462}{arXiv:2503.10462}
+  \item \label{pub:natphys} \small \me, and Markus Heyl\\
+      Empowering deep neural quantum states through efficient optimization\\
+      \href{https://www.nature.com/articles/s41567-024-02566-1}{Nat. Phys. 20, 1476} (2024)\vspace{2pt}
+  \pub{\me, Kenny Choo, Nikita Astrakhantsev, and Titus Neupert}
+      {Neural network evolution strategy for solving quantum sign structures}
+      {https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.L022026}{Phys. Rev. Res. 4, L022026} (2022)
+\end{enumerate}
+\vspace{-6pt}
+{\small \hspace{0.15in}* Equal contribution. Full list (16 papers): \href{https://scholar.google.com/citations?user=ZEzFjXsAAAAJ}{Google Scholar}.}
+
+%----------CONFERENCES----------
+\section{Conference}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Machine Learning for Quantum Matter International Workshop}{Dresden, Germany}
+      {Oral presenter}{Feb. 2025}
+      \resumeItemListStart
+        \resumeItem{\textbf{Topic:} Hidden fermion pfaffian state}
+      \resumeItemListEnd
+    \resumeSubheading
+      {73rd Lindau Nobel Laureate Meeting}{Lindau, Germany}
+      {Young scientist}{July 2024}
+    \resumeSubheading
+      {Joint ICTP-WE Heraeus School and Conference}{Trieste, Italy}
+      {Invited speaker}{Apr. 2024}
+      \resumeItemListStart
+        \resumeItem{\textbf{Topic:} Empowering deep neural quantum states through efficient optimization}
+      \resumeItemListEnd
+    \resumeSubheading
+      {American Physical Society (APS) March Meeting}{Minneapolis, U.S.}
+      {Oral presenter}{Mar. 2024}
+      \resumeItemListStart
+        \resumeItem{\textbf{Topic:} Pushing deep neural quantum states toward machine precision}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%----------PROGRAMMING----------
+\section{Programming}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \item \small Skills
+    \resumeItemListStart
+      \resumeItem{Languages for scientific computing: Python, C++, and MATLAB.}
+      \resumeItem{High-performance computing and neural networks: JAX, Pallas (custom GPU kernels), and PyTorch.}
+    \resumeItemListEnd
+
+    \item \small Scientific software development
+    \resumeItemListStart
+      \resumeItem{Lead developer of \href{https://github.com/ChenAo-Phys/quantax}{Quantax}, a flexible and scalable package for neural quantum states in JAX
+        (\href{https://chenao-phys.github.io/quantax/}{documentation}), based on which the simulations in [\ref{pub:natphys}] were performed.}
+      \resumeItem{Developer of \href{https://github.com/ChenAo-Phys/lrux}{lrux}, fast low-rank updates of determinants and Pfaffians in JAX
+        (\href{https://arxiv.org/abs/2602.05255}{arXiv:2602.05255}).}
+      \resumeItem{Developer of \href{https://github.com/ChenAo-Phys/fermix}{fermix}, fast batched determinants and Pfaffians on GPU with JAX/Pallas kernels.}
+      \resumeItem{Contribution to \href{https://github.com/QuSpin/QuSpin}{QuSpin}, a Python package for exact diagonalization of quantum many-body systems.}
+      \resumeItem{Contribution to \href{https://github.com/patrick-kidger/equinox}{Equinox}, an easy-to-use package for neural networks + scientific computing in JAX.}
+    \resumeItemListEnd
+
+    \item \small Computing grants
+    \resumeItemListStart
+      \resumeItem{Juelich supercomputing center. Markus Schmitt, Tiago Mendes Santos, Jonas Rigo, \me, and Markus Heyl.
+        3M A100 GPU hours per year (2022 -- 2025).}
+      \resumeItem{NHR@FAU (Erlangen) cluster. \me{} and Markus Heyl. 120k A100 GPU hours per year (2022 -- 2025).}
+    \resumeItemListEnd
+  \end{itemize}
+
+%----------PROFESSIONAL ACTIVITY----------
+\section{Professional Activity}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \item \small \textbf{Reviewer:} Physical Review X, Physical Review B
+    \item \small \textbf{Teaching assistant:}
+    \resumeItemListStart
+      \resumeItem{Tools in scientific computing}
+      \resumeItem{Machine learning in physics}
+    \resumeItemListEnd
+  \end{itemize}
+
+\end{document}

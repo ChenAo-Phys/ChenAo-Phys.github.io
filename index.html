@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Ao Chen — Neural quantum states, high-temperature superconductivity</title>
+<meta name="description" content="Ao Chen (陈骜) is a postdoctoral researcher in the Chan Group at Caltech, solving quantum many-body problems with neural quantum states, with a roadmap toward high-temperature superconductor design.">
+<meta name="author" content="Ao Chen">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Ao Chen — Neural quantum states, high-temperature superconductivity">
+<meta property="og:description" content="Postdoctoral researcher, The Chan Group, Caltech. Neural quantum states, high-temperature superconductivity, AI for physics.">
+<meta property="og:image" content="assets/img/avatar.jpg">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20fill='%239E2B25'/%3E%3Ctext%20x='16'%20y='24'%20font-family='Georgia,serif'%20font-size='22'%20fill='%23FAF8F4'%20text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<script>(function(){try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<nav class="nav" id="nav" aria-label="Section navigation">
+  <div class="nav-inner">
+    <p class="running-head" id="running-head" aria-hidden="true">Ao Chen · Caltech</p>
+    <ul class="nav-links" role="list">
+      <li><a href="#roadmap">Roadmap</a></li>
+      <li><a href="#highlights">Highlights</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#software">Software</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Dark theme" hidden>
+      <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true" focusable="false">
+        <circle cx="12" cy="12" r="4.2"/>
+        <path d="M12 2.4v2.6M12 19v2.6M21.6 12H19M5 12H2.4M18.8 5.2l-1.8 1.8M7 17l-1.8 1.8M18.8 18.8 17 17M7 7 5.2 5.2"/>
+      </svg>
+      <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" hidden>
+        <path d="M20.5 14.6A8.6 8.6 0 0 1 9.4 3.5a8.6 8.6 0 1 0 11.1 11.1Z"/>
+      </svg>
+    </button>
+  </div>
+</nav>
+
+
+<div class="wrap">
+
+<header class="masthead" id="top">
+  <p class="eyebrow">Caltech</p>
+  <h1>Ao Chen <span class="name-cn" lang="zh-Hans">陈骜</span></h1>
+
+  <dl class="readout">
+    <div class="readout-cell">
+      <dt>Role</dt>
+      <dd>Postdoctoral researcher</dd>
+    </div>
+    <div class="readout-cell">
+      <dt>Group</dt>
+      <dd><a class="ext" href="https://www.chan-lab.caltech.edu/" rel="noopener">The Chan Group, Caltech</a></dd>
+    </div>
+    <div class="readout-cell">
+      <dt>Since</dt>
+      <dd><span class="mono">May 2025</span></dd>
+    </div>
+  </dl>
+
+  <p class="directions-label" id="directions-label">Research interests</p>
+  <ul class="directions" role="list" aria-labelledby="directions-label">
+    <li class="direction">
+      <span class="direction-art"><svg class="ill emb" viewBox="0 0 120 96" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="t" d="M20 15L48 26M20 15L48 48M20 15L48 70M20 37L48 26M20 37L48 48M20 37L48 70M20 59L48 26M20 59L48 48M20 59L48 70M20 81L48 26M20 81L48 48M20 81L48 70M48 26L76 37M48 26L76 59M48 48L76 37M48 48L76 59M48 70L76 37M48 70L76 59M76 37L102 48M76 59L102 48"/><circle class="f" cx="20" cy="15" r="7"/><path d="M20 18.6V11.4M17.8 13.6L20 11.4L22.2 13.6"/><circle class="f" cx="20" cy="37" r="7"/><path d="M20 33.4V40.6M17.8 38.4L20 40.6L22.2 38.4"/><circle class="f" cx="20" cy="59" r="7"/><path d="M20 55.4V62.6M17.8 60.4L20 62.6L22.2 60.4"/><circle class="f" cx="20" cy="81" r="7"/><path d="M20 84.6V77.4M17.8 79.6L20 77.4L22.2 79.6"/><circle class="f" cx="48" cy="26" r="4.5"/><circle class="f" cx="48" cy="48" r="4.5"/><circle class="f" cx="48" cy="70" r="4.5"/><circle class="f" cx="76" cy="37" r="4.5"/><circle class="f" cx="76" cy="59" r="4.5"/><circle class="f a" cx="102" cy="48" r="9"/><path class="a" d="M95.6 45.4C96.4 43.6 98.6 43.4 98.4 46.4C98.1 50 99.8 51.4 102.2 51.4C105 51.4 106.8 49.2 107.2 46.4C107.4 45 107.6 44 108.2 43.4M103.6 41.6L100.7 54.4"/></svg></span>
+      <span class="direction-label">Neural quantum states (NQS)</span>
+    </li>
+    <li class="direction">
+      <span class="direction-art"><svg class="ill emb" viewBox="0 0 120 96" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="f" d="M104.0 49.4L60.0 74.8L60.0 82.8L104.0 57.4Z"/><path class="f" d="M16.0 49.4L60.0 74.8L60.0 82.8L16.0 57.4Z"/><path class="f" d="M60.0 24.0L104.0 49.4L60.0 74.8L16.0 49.4Z"/><path class="a" d="M50.0 49.4L50.4 49.8L50.8 50.2L51.2 50.5L51.7 50.8L52.1 50.9L52.5 51.0L52.9 50.9L53.3 50.8L53.8 50.5L54.2 50.2L54.6 49.8L55.0 49.4L55.4 49.0L55.8 48.6L56.2 48.3L56.7 48.0L57.1 47.9L57.5 47.8L57.9 47.9L58.3 48.0L58.8 48.3L59.2 48.6L59.6 49.0L60.0 49.4L60.4 49.8L60.8 50.2L61.2 50.5L61.7 50.8L62.1 50.9L62.5 51.0L62.9 50.9L63.3 50.8L63.8 50.5L64.2 50.2L64.6 49.8L65.0 49.4L65.4 49.0L65.8 48.6L66.2 48.3L66.7 48.0L67.1 47.9L67.5 47.8L67.9 47.9L68.3 48.0L68.8 48.3L69.2 48.6L69.6 49.0L70.0 49.4"/><circle class="af" cx="44.0" cy="49.4" r="4.2"/><circle class="af" cx="76.0" cy="49.4" r="4.2"/><path class="p" d="M44.0 51.6V47.2M42.5 48.7L44.0 47.2L45.5 48.7"/><path class="p" d="M76.0 47.2V51.6M74.5 50.1L76.0 51.6L77.5 50.1"/></svg></span>
+      <span class="direction-label">High-T<sub>c</sub> super&shy;conductivity</span>
+    </li>
+    <li class="direction">
+      <span class="direction-art"><svg class="ill emb" viewBox="0 0 120 96" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 88C18 81 24 78.5 31 78.5H49C56 78.5 62 81 62 88"/><path class="f" d="M36 72.5H44V78.5H36Z"/><rect class="f" x="17" y="53" width="5" height="11" rx="1.5"/><rect class="f" x="58" y="53" width="5" height="11" rx="1.5"/><path d="M40 44V37.5"/><circle class="af" cx="40" cy="35.5" r="2.4"/><rect class="f" x="21" y="44" width="38" height="30" rx="7"/><rect class="t" x="25.5" y="49" width="29" height="15" rx="4.5"/><circle class="f" cx="33" cy="56.5" r="3.3"/><circle class="f" cx="47" cy="56.5" r="3.3"/><circle class="k" cx="34.3" cy="55.2" r="1.5"/><circle class="k" cx="48.3" cy="55.2" r="1.5"/><path d="M35.5 68.5H44.5"/><circle class="f" cx="61.5" cy="42.5" r="1.6"/><circle class="f" cx="66" cy="37" r="2.4"/><path class="f" d="M94.5 7.7A7.8 7.8 0 0 1 106.5 13.9A6.1 6.1 0 0 1 109.8 23.9A6.6 6.6 0 0 1 103.0 33.0A8.4 8.4 0 0 1 89.1 37.0A8.5 8.5 0 0 1 74.7 33.9A6.9 6.9 0 0 1 66.5 25.3A6.0 6.0 0 0 1 68.4 15.1A7.6 7.6 0 0 1 79.5 8.2A8.7 8.7 0 0 1 94.5 7.7Z"/><ellipse cx="88" cy="22" rx="11" ry="4"/><ellipse cx="88" cy="22" rx="11" ry="4" transform="rotate(60 88 22)"/><ellipse cx="88" cy="22" rx="11" ry="4" transform="rotate(-60 88 22)"/><circle class="af" cx="88" cy="22" r="2.2"/><circle class="k" cx="77.7" cy="20.6" r="1.3"/><circle class="k" cx="94.5" cy="29.2" r="1.3"/><circle class="k" cx="94.4" cy="16.0" r="1.3"/></svg></span>
+      <span class="direction-label">AI for physics</span>
+    </li>
+  </ul>
+
+  <ul class="iconlinks" role="list">
+    <li><a class="iconbtn" href="assets/files/AoChen_CV.pdf" aria-label="CV (PDF)"><svg class="glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M8.5 12.5h7M8.5 15.5h7M8.5 18.5h4"/></svg><span class="tip" aria-hidden="true">CV (PDF)</span></a></li>
+    <li><a class="iconbtn" href="mailto:chenao.phys@gmail.com" aria-label="Email"><svg class="glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="M3.6 7l8.4 6.2 8.4-6.2"/></svg><span class="tip" aria-hidden="true">Email</span></a></li>
+    <li><a class="iconbtn" href="https://github.com/ChenAo-Phys" rel="noopener" aria-label="GitHub"><svg class="glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path fill="currentColor" stroke="none" transform="translate(3 3) scale(1.125)" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg><span class="tip" aria-hidden="true">GitHub</span></a></li>
+    <li><a class="iconbtn" href="https://scholar.google.com/citations?user=ZEzFjXsAAAAJ&amp;hl=en" rel="noopener" aria-label="Google Scholar"><svg class="glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path fill="currentColor" stroke="none" transform="translate(3 3) scale(.75)" d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg><span class="tip" aria-hidden="true">Google Scholar</span></a></li>
+  </ul>
+
+  <img class="portrait" src="assets/img/avatar.jpg" alt="Portrait of Ao Chen" width="140" height="140">
+</header>
+
+<main id="main" tabindex="-1">
+
+<!-- ================= §01 ROADMAP ================= -->
+<section class="section section-roadmap" id="roadmap" aria-labelledby="h-roadmap">
+  <div class="rail" aria-hidden="true"><span class="rail-num">01</span></div>
+  <div class="col">
+    <p class="rail-inline" aria-hidden="true">01</p>
+    <h2 id="h-roadmap">NQS roadmap to high-T<sub>c</sub></h2>
+  </div>
+
+  <figure class="plate" id="roadmap-figure">
+    <div class="plate-head">
+      <ul class="legend" role="list">
+        <li><span class="key key-done" aria-hidden="true"></span>Achieved</li>
+        <li><span class="key key-future" aria-hidden="true"></span>Projected</li>
+      </ul>
+    </div>
+
+    <div class="rm-scroller">
+      <ol class="rm-strip" id="rm-strip" start="0" role="list" aria-label="Roadmap milestones">
+        <li class="rm-item is-done">
+          <a class="rm-tab" id="tab-0" href="#step-0">
+            <span class="rm-art"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="t" d="M52 38L120 42M52 38L120 66M52 38L120 90M52 38L120 114M52 38L120 138M52 64L120 42M52 64L120 66M52 64L120 90M52 64L120 114M52 64L120 138M52 90L120 42M52 90L120 66M52 90L120 90M52 90L120 114M52 90L120 138M52 116L120 42M52 116L120 66M52 116L120 90M52 116L120 114M52 116L120 138M52 142L120 42M52 142L120 66M52 142L120 90M52 142L120 114M52 142L120 138M120 42L188 90M120 66L188 90M120 90L188 90M120 114L188 90M120 138L188 90"/><circle class="f" cx="52" cy="38" r="9"/><path d="M52 42.2V33.8M49.6 36.2L52 33.8L54.4 36.2"/><circle class="f" cx="52" cy="64" r="9"/><path d="M52 59.8V68.2M49.6 65.8L52 68.2L54.4 65.8"/><circle class="f" cx="52" cy="90" r="9"/><path d="M52 85.8V94.2M49.6 91.8L52 94.2L54.4 91.8"/><circle class="f" cx="52" cy="116" r="9"/><path d="M52 120.2V111.8M49.6 114.2L52 111.8L54.4 114.2"/><circle class="f" cx="52" cy="142" r="9"/><path d="M52 137.8V146.2M49.6 143.8L52 146.2L54.4 143.8"/><circle class="f" cx="120" cy="42" r="5.5"/><circle class="f" cx="120" cy="66" r="5.5"/><circle class="f" cx="120" cy="90" r="5.5"/><circle class="f" cx="120" cy="114" r="5.5"/><circle class="f" cx="120" cy="138" r="5.5"/><circle class="f a" cx="188" cy="90" r="12"/><path class="a" d="M180 86.75C181 84.5 183.75 84.25 183.5 88C183.12 92.5 185.25 94.25 188.25 94.25C191.75 94.25 194 91.5 194.5 88C194.75 86.25 195 85 195.75 84.25M190 82L186.38 98"/></svg></span>
+            <span class="rm-kicker">Milestone 0</span>
+            <span class="rm-title">NQS proposed</span>
+            <span class="rm-meta"><span class="rm-authors">G. Carleo, M. Troyer</span><em>Science</em> 355, 602 (2017)</span>
+            <span class="rm-node"><span class="rm-dot" aria-hidden="true"></span><span class="rm-date">June 2016</span></span>
+          </a>
+        </li>
+        <li class="rm-item is-done">
+          <a class="rm-tab" id="tab-1" href="#step-1">
+            <span class="rm-art"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="t" d="M30 45L78 51M30 45L78 77M30 45L78 103M30 45L78 129M30 75L78 51M30 75L78 77M30 75L78 103M30 75L78 129M30 105L78 51M30 105L78 77M30 105L78 103M30 105L78 129M30 135L78 51M30 135L78 77M30 135L78 103M30 135L78 129"/><circle class="f" cx="30" cy="45" r="9"/><path d="M30 49.2V40.8M27.6 43.2L30 40.8L32.4 43.2"/><circle class="f" cx="30" cy="75" r="9"/><circle class="f" cx="30" cy="105" r="9"/><path d="M27.4 108.8V101.2M25.4 103.2L27.4 101.2L29.4 103.2M32.6 101.2V108.8M30.6 106.8L32.6 108.8L34.6 106.8"/><circle class="f" cx="30" cy="135" r="9"/><path d="M30 130.8V139.2M27.6 136.8L30 139.2L32.4 136.8"/><circle class="f" cx="78" cy="51" r="5.5"/><circle class="f" cx="78" cy="77" r="5.5"/><circle class="f" cx="78" cy="103" r="5.5"/><circle class="f" cx="78" cy="129" r="5.5"/><path d="M92 90H110M106.5 86.5L110 90L106.5 93.5"/><rect class="f" x="124" y="70" width="40" height="40"/><path class="t" d="M124 80H164M124 90H164M124 100H164M134 70V110M144 70V110M154 70V110"/><path d="M118 67V113M170 67V113"/><path d="M178 90H196M192.5 86.5L196 90L192.5 93.5"/><circle class="f a" cx="212" cy="90" r="12"/><path class="a" d="M204 86.75C205 84.5 207.75 84.25 207.5 88C207.12 92.5 209.25 94.25 212.25 94.25C215.75 94.25 218 91.5 218.5 88C218.75 86.25 219 85 219.75 84.25M214 82L210.38 98"/></svg></span>
+            <span class="rm-kicker">Milestone 1</span>
+            <span class="rm-title">Neural-network backflow</span>
+            <span class="rm-meta"><span class="rm-authors">D. Luo, B. K. Clark</span><em>PRL</em> 122, 226401 (2019)</span>
+            <span class="rm-node"><span class="rm-dot" aria-hidden="true"></span><span class="rm-date">June 2019</span></span>
+          </a>
+        </li>
+        <li class="rm-item is-done">
+          <a class="rm-tab" id="tab-2" href="#step-2">
+            <span class="rm-art"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="t" d="M32 35H62M32 57H62M32 79H62M32 101H62M32 123H62M32 145H62M178 40L206 90M178 60L206 90M178 80L206 90M178 100L206 90M178 120L206 90M178 140L206 90"/><rect class="f" x="62" y="28" width="12" height="124" rx="4"/><circle class="k" cx="68" cy="38" r="1.4"/><circle class="k" cx="68" cy="51" r="1.4"/><circle class="k" cx="68" cy="64" r="1.4"/><circle class="k" cx="68" cy="77" r="1.4"/><circle class="k" cx="68" cy="90" r="1.4"/><circle class="k" cx="68" cy="103" r="1.4"/><circle class="k" cx="68" cy="116" r="1.4"/><circle class="k" cx="68" cy="129" r="1.4"/><circle class="k" cx="68" cy="142" r="1.4"/><path d="M77 90H85M82 87L85 90L82 93"/><rect class="f" x="88" y="28" width="12" height="124" rx="4"/><circle class="k" cx="94" cy="38" r="1.4"/><circle class="k" cx="94" cy="51" r="1.4"/><circle class="k" cx="94" cy="64" r="1.4"/><circle class="k" cx="94" cy="77" r="1.4"/><circle class="k" cx="94" cy="90" r="1.4"/><circle class="k" cx="94" cy="103" r="1.4"/><circle class="k" cx="94" cy="116" r="1.4"/><circle class="k" cx="94" cy="129" r="1.4"/><circle class="k" cx="94" cy="142" r="1.4"/><path d="M103 90H111M108 87L111 90L108 93"/><rect class="f" x="114" y="28" width="12" height="124" rx="4"/><circle class="k" cx="120" cy="38" r="1.4"/><circle class="k" cx="120" cy="51" r="1.4"/><circle class="k" cx="120" cy="64" r="1.4"/><circle class="k" cx="120" cy="77" r="1.4"/><circle class="k" cx="120" cy="90" r="1.4"/><circle class="k" cx="120" cy="103" r="1.4"/><circle class="k" cx="120" cy="116" r="1.4"/><circle class="k" cx="120" cy="129" r="1.4"/><circle class="k" cx="120" cy="142" r="1.4"/><path d="M129 90H137M134 87L137 90L134 93"/><rect class="f" x="140" y="28" width="12" height="124" rx="4"/><circle class="k" cx="146" cy="38" r="1.4"/><circle class="k" cx="146" cy="51" r="1.4"/><circle class="k" cx="146" cy="64" r="1.4"/><circle class="k" cx="146" cy="77" r="1.4"/><circle class="k" cx="146" cy="90" r="1.4"/><circle class="k" cx="146" cy="103" r="1.4"/><circle class="k" cx="146" cy="116" r="1.4"/><circle class="k" cx="146" cy="129" r="1.4"/><circle class="k" cx="146" cy="142" r="1.4"/><path d="M155 90H163M160 87L163 90L160 93"/><rect class="f" x="166" y="28" width="12" height="124" rx="4"/><circle class="k" cx="172" cy="38" r="1.4"/><circle class="k" cx="172" cy="51" r="1.4"/><circle class="k" cx="172" cy="64" r="1.4"/><circle class="k" cx="172" cy="77" r="1.4"/><circle class="k" cx="172" cy="90" r="1.4"/><circle class="k" cx="172" cy="103" r="1.4"/><circle class="k" cx="172" cy="116" r="1.4"/><circle class="k" cx="172" cy="129" r="1.4"/><circle class="k" cx="172" cy="142" r="1.4"/><circle class="f" cx="32" cy="35" r="8"/><path d="M32 39.2V30.8M29.6 33.2L32 30.8L34.4 33.2"/><circle class="f" cx="32" cy="57" r="8"/><path d="M32 52.8V61.2M29.6 58.8L32 61.2L34.4 58.8"/><circle class="f" cx="32" cy="79" r="8"/><path d="M32 74.8V83.2M29.6 80.8L32 83.2L34.4 80.8"/><circle class="f" cx="32" cy="101" r="8"/><path d="M32 105.2V96.8M29.6 99.2L32 96.8L34.4 99.2"/><circle class="f" cx="32" cy="123" r="8"/><path d="M32 118.8V127.2M29.6 124.8L32 127.2L34.4 124.8"/><circle class="f" cx="32" cy="145" r="8"/><path d="M32 149.2V140.8M29.6 143.2L32 140.8L34.4 143.2"/><circle class="f a" cx="206" cy="90" r="12"/><path class="a" d="M198 86.75C199 84.5 201.75 84.25 201.5 88C201.12 92.5 203.25 94.25 206.25 94.25C209.75 94.25 212 91.5 212.5 88C212.75 86.25 213 85 213.75 84.25M208 82L204.38 98"/></svg></span>
+            <span class="rm-kicker">Milestone 2</span>
+            <span class="rm-title">Scalable NQS</span>
+            <span class="rm-meta"><span class="rm-authors"><strong>A. Chen</strong>, M. Heyl</span><em>Nat. Phys.</em> 20, 1476 (2024)</span>
+            <span class="rm-node"><span class="rm-dot" aria-hidden="true"></span><span class="rm-date">July 2024</span></span>
+          </a>
+        </li>
+        <li class="rm-item is-done is-last-done">
+          <a class="rm-tab" id="tab-3" href="#step-3">
+            <span class="rm-art"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="d" d="M112,62H132M128,110H108"/><path class="a" d="M120,63.5V108.5M117.8,66.3L120,63.5L122.2,66.3M117.8,105.7L120,108.5L122.2,105.7"/><path class="f" d="M112,62 64,89.6 64,95.6 112,68Z"/><path class="f" d="M16,62 64,89.6 64,95.6 16,68Z"/><path class="f" d="M64,34.4 112,62 64,89.6 16,62Z"/><path class="t" d="M64,41.3L28,62M64,41.3L100,62M76,48.2L40,68.9M52,48.2L88,68.9M88,55.1L52,75.8M40,55.1L76,75.8M100,62L64,82.7M28,62L64,82.7"/><path stroke-width="2.4" d="M64,41.3L76,48.2M88,55.1L76,62M100,62L88,68.9M52,48.2L40,55.1M64,68.9L76,75.8M28,62L40,68.9M52,75.8L64,82.7"/><path class="a" stroke-width="2.4" d="M64,55.1L52,62"/><ellipse class="k" cx="64" cy="41.3" rx="3.4" ry="2"/><ellipse class="k" cx="52" cy="48.2" rx="3.4" ry="2"/><ellipse class="k" cx="76" cy="48.2" rx="3.4" ry="2"/><ellipse class="k" cx="40" cy="55.1" rx="3.4" ry="2"/><ellipse class="f d" cx="64" cy="55.1" rx="4.6" ry="2.7"/><ellipse class="k" cx="88" cy="55.1" rx="3.4" ry="2"/><ellipse class="k" cx="28" cy="62" rx="3.4" ry="2"/><ellipse class="f d" cx="52" cy="62" rx="4.6" ry="2.7"/><ellipse class="k" cx="76" cy="62" rx="3.4" ry="2"/><ellipse class="k" cx="100" cy="62" rx="3.4" ry="2"/><ellipse class="k" cx="40" cy="68.9" rx="3.4" ry="2"/><ellipse class="k" cx="64" cy="68.9" rx="3.4" ry="2"/><ellipse class="k" cx="88" cy="68.9" rx="3.4" ry="2"/><ellipse class="k" cx="52" cy="75.8" rx="3.4" ry="2"/><ellipse class="k" cx="76" cy="75.8" rx="3.4" ry="2"/><ellipse class="k" cx="64" cy="82.7" rx="3.4" ry="2"/><path class="f" d="M224,110 176,137.6 176,143.6 224,116Z"/><path class="f" d="M128,110 176,137.6 176,143.6 128,116Z"/><path class="f" d="M176,82.4 224,110 176,137.6 128,110Z"/><path class="t" d="M176,89.3L140,110M176,89.3L212,110M188,96.2L152,116.9M164,96.2L200,116.9M200,103.1L164,123.8M152,103.1L188,123.8M212,110L176,130.7M140,110L176,130.7"/><ellipse class="f" cx="176" cy="89.3" rx="3" ry="1.7"/><path d="M176,89.3V78.3M174,80.8L176,78.3L178,80.8"/><ellipse class="f" cx="164" cy="96.2" rx="3" ry="1.7"/><path d="M164,85.2V94.7M162,92.2L164,94.7L166,92.2"/><ellipse class="f" cx="188" cy="96.2" rx="3" ry="1.7"/><path d="M188,85.2V94.7M186,92.2L188,94.7L190,92.2"/><ellipse class="f" cx="152" cy="103.1" rx="3" ry="1.7"/><path d="M152,103.1V92.1M150,94.6L152,92.1L154,94.6"/><ellipse class="f" cx="176" cy="103.1" rx="3" ry="1.7"/><path d="M176,103.1V92.1M174,94.6L176,92.1L178,94.6"/><ellipse class="f d" cx="200" cy="103.1" rx="4.6" ry="2.7"/><ellipse class="f" cx="140" cy="110" rx="3" ry="1.7"/><path d="M140,99V108.5M138,106L140,108.5L142,106"/><ellipse class="f" cx="164" cy="110" rx="3" ry="1.7"/><path d="M164,99V108.5M162,106L164,108.5L166,106"/><ellipse class="f d" cx="188" cy="110" rx="4.6" ry="2.7"/><ellipse class="f" cx="212" cy="110" rx="3" ry="1.7"/><path d="M212,110V99M210,101.5L212,99L214,101.5"/><ellipse class="f" cx="152" cy="116.9" rx="3" ry="1.7"/><path d="M152,116.9V105.9M150,108.4L152,105.9L154,108.4"/><ellipse class="f d" cx="176" cy="116.9" rx="4.6" ry="2.7"/><ellipse class="f" cx="200" cy="116.9" rx="3" ry="1.7"/><path d="M200,105.9V115.4M198,112.9L200,115.4L202,112.9"/><ellipse class="f d" cx="164" cy="123.8" rx="4.6" ry="2.7"/><ellipse class="f" cx="188" cy="123.8" rx="3" ry="1.7"/><path d="M188,123.8V112.8M186,115.3L188,112.8L190,115.3"/><ellipse class="f" cx="176" cy="130.7" rx="3" ry="1.7"/><path d="M176,119.7V129.2M174,126.7L176,129.2L178,126.7"/></svg></span>
+            <span class="rm-kicker">Milestone 3</span>
+            <span class="rm-title">10<sup>−3</sup> accuracy in the Hubbard model</span>
+            <span class="rm-meta"><span class="rm-authors"><strong>A. Chen</strong>, J. Gray, <span class="nowrap">S.-J. Du</span>, <span class="nowrap">G. K.-L. Chan</span></span>arXiv:2610.30321 (2026)</span>
+            <span class="rm-node"><span class="rm-dot" aria-hidden="true"></span><span class="rm-date">October 2026</span><span class="rm-now" aria-hidden="true"><span class="rm-now-label">Now</span></span></span>
+          </a>
+        </li>
+        <li class="rm-item is-future">
+          <a class="rm-tab" id="tab-4" href="#step-4">
+            <span class="rm-art"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="f" d="M35.8 116.4L120 165L204.2 116.4L204.2 107L120 155.6L35.8 107Z"/><path class="f" d="M120 58.3L204.2 107L120 155.6L35.8 107Z"/><path d="M120 165L120 155.6"/><path stroke-width="1.5" d="M120 68.1L136.8 77.8M153.7 87.5L170.5 97.2M187.3 107L170.5 116.7M103.2 77.8L86.3 87.5M120 87.5L136.8 97.2M103.2 97.2L86.3 107M120 107L136.8 116.7M153.7 126.4L136.8 136.1M69.5 97.2L52.7 107M103.2 116.7L120 126.4M69.5 116.7L86.3 126.4M103.2 136.1L120 145.8"/><ellipse class="k" cx="120" cy="68.1" rx="4.3" ry="2.5"/><ellipse class="k" cx="103.2" cy="77.8" rx="4.3" ry="2.5"/><ellipse class="k" cx="136.8" cy="77.8" rx="4.3" ry="2.5"/><ellipse class="k" cx="86.3" cy="87.5" rx="4.3" ry="2.5"/><ellipse class="k" cx="120" cy="87.5" rx="4.3" ry="2.5"/><ellipse class="k" cx="153.7" cy="87.5" rx="4.3" ry="2.5"/><ellipse class="k" cx="69.5" cy="97.2" rx="4.3" ry="2.5"/><ellipse class="k" cx="103.2" cy="97.2" rx="4.3" ry="2.5"/><ellipse class="k" cx="136.8" cy="97.2" rx="4.3" ry="2.5"/><ellipse class="k" cx="170.5" cy="97.2" rx="4.3" ry="2.5"/><ellipse class="k" cx="52.7" cy="107" rx="4.3" ry="2.5"/><ellipse class="k" cx="86.3" cy="107" rx="4.3" ry="2.5"/><ellipse class="k" cx="120" cy="107" rx="4.3" ry="2.5"/><ellipse class="f" cx="153.7" cy="107" rx="5.1" ry="3"/><ellipse class="k" cx="187.3" cy="107" rx="4.3" ry="2.5"/><ellipse class="k" cx="69.5" cy="116.7" rx="4.3" ry="2.5"/><ellipse class="k" cx="103.2" cy="116.7" rx="4.3" ry="2.5"/><ellipse class="k" cx="136.8" cy="116.7" rx="4.3" ry="2.5"/><ellipse class="k" cx="170.5" cy="116.7" rx="4.3" ry="2.5"/><ellipse class="k" cx="86.3" cy="126.4" rx="4.3" ry="2.5"/><ellipse class="k" cx="120" cy="126.4" rx="4.3" ry="2.5"/><ellipse class="k" cx="153.7" cy="126.4" rx="4.3" ry="2.5"/><ellipse class="k" cx="103.2" cy="136.1" rx="4.3" ry="2.5"/><ellipse class="k" cx="136.8" cy="136.1" rx="4.3" ry="2.5"/><ellipse class="k" cx="120" cy="145.8" rx="4.3" ry="2.5"/><path class="d" d="M120 107V30.5"/><path class="f a" d="M120 30.5L117.2 30.5L114.5 30.3L111.8 30L109.2 29.5L106.7 29L104.3 28.4L102.1 27.6L100.1 26.8L98.3 25.9L96.8 25L95.5 24L94.4 23L93.6 22L93 21L92.7 20L92.6 19.1L92.9 18.2L93.3 17.4L94 16.6L94.9 16L95.9 15.5L97.2 15.1L98.6 14.9L100.1 14.7L101.8 14.8L103.5 14.9L105.2 15.3L106.9 15.7L108.7 16.4L110.4 17.1L112 18L113.5 19.1L115 20.2L116.2 21.5L117.3 22.8L118.3 24.3L119 25.8L119.6 27.3L119.9 28.9L120 30.5Z"/><path class="f a" d="M120 30.5L120.1 28.9L120.4 27.3L121 25.8L121.7 24.3L122.7 22.8L123.8 21.5L125 20.2L126.5 19.1L128 18L129.6 17.1L131.3 16.4L133.1 15.7L134.8 15.3L136.5 14.9L138.2 14.8L139.9 14.7L141.4 14.9L142.8 15.1L144.1 15.5L145.1 16L146 16.6L146.7 17.4L147.1 18.2L147.4 19.1L147.3 20L147 21L146.4 22L145.6 23L144.5 24L143.2 25L141.7 25.9L139.9 26.8L137.9 27.6L135.7 28.4L133.3 29L130.8 29.5L128.2 30L125.5 30.3L122.8 30.5L120 30.5Z"/><path class="f a" d="M120 30.5L122.8 30.6L125.5 30.8L128.2 31.1L130.8 31.5L133.3 32.1L135.7 32.7L137.9 33.4L139.9 34.3L141.7 35.1L143.2 36.1L144.5 37.1L145.6 38.1L146.4 39.1L147 40.1L147.3 41.1L147.4 42L147.1 42.9L146.7 43.7L146 44.4L145.1 45L144.1 45.6L142.8 45.9L141.4 46.2L139.9 46.3L138.2 46.3L136.5 46.1L134.8 45.8L133.1 45.3L131.3 44.7L129.6 43.9L128 43L126.5 42L125 40.9L123.8 39.6L122.7 38.2L121.7 36.8L121 35.3L120.4 33.7L120.1 32.1L120 30.5Z"/><path class="f a" d="M120 30.5L119.9 32.1L119.6 33.7L119 35.3L118.3 36.8L117.3 38.2L116.2 39.6L115 40.9L113.5 42L112 43L110.4 43.9L108.7 44.7L106.9 45.3L105.2 45.8L103.5 46.1L101.8 46.3L100.1 46.3L98.6 46.2L97.2 45.9L95.9 45.6L94.9 45L94 44.4L93.3 43.7L92.9 42.9L92.6 42L92.7 41.1L93 40.1L93.6 39.1L94.4 38.1L95.5 37.1L96.8 36.1L98.3 35.1L100.1 34.3L102.1 33.4L104.3 32.7L106.7 32.1L109.2 31.5L111.8 31.1L114.5 30.8L117.2 30.6L120 30.5Z"/><path class="t a" d="M124.9 31.1L121 33.3M129.6 31.7L122 36.1M133.9 32.7L123.7 38.5M137.6 33.9L125.8 40.7M140.9 35.4L128.4 42.6M143.7 37.1L131.4 44.2M145.8 39.3L135.1 45.4M146.8 42L139.9 46M115.1 30L119 27.7M110.4 29.4L118 25M106.1 28.4L116.3 22.5M102.4 27.2L114.2 20.4M99.1 25.7L111.6 18.5M96.3 24L108.6 16.9M94.2 21.8L104.9 15.6M93.2 19L100.1 15"/></svg></span>
+            <span class="rm-kicker">Milestone 4</span>
+            <span class="rm-title">Solid evidence of high-T<sub>c</sub> SC</span>
+            <span class="rm-meta">Projected</span>
+            <span class="rm-node"><span class="rm-dot" aria-hidden="true"></span><span class="rm-date">2027</span></span>
+          </a>
+        </li>
+        <li class="rm-item is-future">
+          <a class="rm-tab" id="tab-5" href="#step-5">
+            <span class="rm-art"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="t" d="M120 90.3L42.9 90.3M120 86.6L42.9 86.6M120 82.8L42.9 82.8M120 82.8L197.1 82.8M120 86.6L197.1 86.6M120 90.3L197.1 90.3M126.5 86.6L126.5 145.9M120 86.6L120 145.9M113.5 86.6L113.5 145.9"/><path class="f" d="M72.3 88.7L42.9 105.6L42.9 99.3L72.3 82.3Z"/><path class="f" d="M13.5 88.7L42.9 105.6L42.9 99.3L13.5 82.3Z"/><path class="f" d="M42.9 65.4L72.3 82.3L42.9 99.3L13.5 82.3Z"/><path class="k" d="M46.7 70.2L49.2 71.7L24.4 86L21.9 84.5ZM54 74.4L56.6 75.9L31.8 90.2L29.2 88.7ZM61.3 78.7L63.9 80.1L39.1 94.5L36.6 93Z"/><path class="f" d="M226.5 88.7L197.1 105.6L197.1 99.3L226.5 82.3Z"/><path class="f" d="M167.7 88.7L197.1 105.6L197.1 99.3L167.7 82.3Z"/><path class="f" d="M197.1 65.4L226.5 82.3L197.1 99.3L167.7 82.3Z"/><path class="t" d="M197.1 68L221.9 82.3L197.1 96.6L172.3 82.3Z"/><path class="k" d="M197.1 68L203.3 71.6L197.1 75.2L190.9 71.6ZM184.7 75.2L190.9 78.7L184.7 82.3L178.5 78.7ZM197.1 75.2L203.3 78.7L197.1 82.3L190.9 78.7ZM184.7 82.3L190.9 85.9L184.7 89.5L178.5 85.9ZM209.5 75.2L215.7 78.7L209.5 82.3L203.3 78.7ZM197.1 82.3L203.3 85.9L197.1 89.5L190.9 85.9ZM209.5 82.3L215.7 85.9L209.5 89.5L203.3 85.9ZM197.1 89.5L203.3 93.1L197.1 96.6L190.9 93.1Z"/><path class="f" d="M160.4 88.7L120 112L120 80.2L160.4 56.9Z"/><path class="f" d="M79.6 88.7L120 112L120 80.2L79.6 56.9Z"/><path class="f" d="M120 33.6L160.4 56.9L120 80.2L79.6 56.9Z"/><path class="t" d="M160.4 78.1L120 101.4M79.6 78.1L120 101.4M160.4 67.5L120 90.8M79.6 67.5L120 90.8"/><path class="d" d="M87.9 56.1L87.9 40.2M92.5 53.2L92.5 28.8M97.1 60.6L97.1 44.7M101.6 53.7L101.6 23M106.2 59.8L106.2 37.5M110.8 46.3L110.8 14.5M115.4 55.8L115.4 33.6M120 66.4L120 31.4M124.6 50.3L124.6 24.8M129.2 59L129.2 25.1M133.8 49.2L133.8 30.1M138.4 60.1L138.4 35.7M142.9 55L142.9 28.5M147.5 59L147.5 45.2M152.1 54.8L152.1 38.9"/><path class="f" d="M149.4 148L120 165L120 158.6L149.4 141.7Z"/><path class="f" d="M90.6 148L120 165L120 158.6L90.6 141.7Z"/><path class="f" d="M120 124.7L149.4 141.7L120 158.6L90.6 141.7Z"/><path class="a" d="M120 141.7L122.5 141.8L124.8 142L127.1 142.5L129.1 143.1L130.9 143.8L132.3 144.6L133.4 145.5L134.1 146.4L134.5 147.3L134.4 148.1L134 148.8L133.3 149.4L132.3 149.8L131.1 150L129.7 150L128.2 149.8L126.6 149.4L125.1 148.8L123.7 147.9L122.4 146.9L121.4 145.8L120.6 144.5L120.2 143.1L120 141.7ZM120 141.7L119.8 143.1L119.4 144.5L118.6 145.8L117.6 146.9L116.3 147.9L114.9 148.8L113.4 149.4L111.8 149.8L110.3 150L108.9 150L107.7 149.8L106.7 149.4L106 148.8L105.6 148.1L105.5 147.3L105.9 146.4L106.6 145.5L107.7 144.6L109.1 143.8L110.9 143.1L112.9 142.5L115.2 142L117.5 141.8L120 141.7ZM120 141.7L117.5 141.6L115.2 141.3L112.9 140.9L110.9 140.3L109.1 139.6L107.7 138.7L106.6 137.9L105.9 137L105.5 136.1L105.6 135.3L106 134.6L106.7 134L107.7 133.6L108.9 133.4L110.3 133.3L111.8 133.5L113.4 133.9L114.9 134.6L116.3 135.4L117.6 136.4L118.6 137.6L119.4 138.9L119.8 140.3L120 141.7ZM120 141.7L120.2 140.3L120.6 138.9L121.4 137.6L122.4 136.4L123.7 135.4L125.1 134.6L126.6 133.9L128.2 133.5L129.7 133.3L131.1 133.4L132.3 133.6L133.3 134L134 134.6L134.4 135.3L134.5 136.1L134.1 137L133.4 137.9L132.3 138.7L130.9 139.6L129.1 140.3L127.1 140.9L124.8 141.3L122.5 141.6L120 141.7Z"/></svg></span>
+            <span class="rm-kicker">Milestone 5</span>
+            <span class="rm-title">Foundation model</span>
+            <span class="rm-meta">Projected</span>
+            <span class="rm-node"><span class="rm-dot" aria-hidden="true"></span><span class="rm-date">2028–2029</span></span>
+          </a>
+        </li>
+        <li class="rm-item is-future">
+          <a class="rm-tab" id="tab-6" href="#step-6">
+            <span class="rm-art"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="f" d="M13.2 137 60 164 60 158 13.2 131Z"/><path class="f" d="M106.8 137 60 164 60 158 106.8 131Z"/><path class="f" d="M60 104 106.8 131 60 158 13.2 131Z"/><path class="t" d="M65.8 107.4 19.1 134.4M54.2 107.4 100.9 134.4M77.5 114.1 30.8 141.1M42.5 114.1 89.2 141.1M89.2 120.9 42.5 147.9M30.8 120.9 77.5 147.9M100.9 127.6 54.2 154.6M19.1 127.6 65.8 154.6"/><ellipse class="f" cx="60" cy="110.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="117.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="36.6" cy="124.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="24.9" cy="131" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="117.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="124.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="131" rx="3.2" ry="1.8"/><ellipse class="f" cx="36.6" cy="137.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="83.4" cy="124.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="131" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="137.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="144.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="95.1" cy="131" rx="3.2" ry="1.8"/><ellipse class="f" cx="83.4" cy="137.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="144.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="151.2" rx="3.2" ry="1.8"/><path d="M24.9 131 24.9 114M95.1 131 95.1 114M36.6 137.8 36.6 120.8M83.4 137.8 83.4 120.8M48.3 144.5 48.3 127.5M71.7 144.5 71.7 127.5M60 151.2 60 134.2"/><circle class="k" cx="24.9" cy="122.5" r="1.3"/><circle class="k" cx="95.1" cy="122.5" r="1.3"/><circle class="k" cx="36.6" cy="129.2" r="1.3"/><circle class="k" cx="83.4" cy="129.2" r="1.3"/><circle class="k" cx="48.3" cy="136" r="1.3"/><circle class="k" cx="71.7" cy="136" r="1.3"/><circle class="k" cx="60" cy="142.8" r="1.3"/><path class="f" d="M13.2 114 60 141 60 135 13.2 108Z"/><path class="f" d="M106.8 114 60 141 60 135 106.8 108Z"/><path class="f" d="M60 81 106.8 108 60 135 13.2 108Z"/><path class="t" d="M65.8 84.4 19.1 111.4M54.2 84.4 100.9 111.4M77.5 91.1 30.8 118.1M42.5 91.1 89.2 118.1M89.2 97.9 42.5 124.9M30.8 97.9 77.5 124.9M100.9 104.6 54.2 131.6M19.1 104.6 65.8 131.6"/><ellipse class="f" cx="60" cy="87.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="94.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="36.6" cy="101.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="24.9" cy="108" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="94.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="101.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="108" rx="3.2" ry="1.8"/><ellipse class="f" cx="36.6" cy="114.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="83.4" cy="101.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="108" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="114.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="121.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="95.1" cy="108" rx="3.2" ry="1.8"/><ellipse class="f" cx="83.4" cy="114.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="121.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="128.2" rx="3.2" ry="1.8"/><path d="M24.9 108 24.9 91M95.1 108 95.1 91M36.6 114.8 36.6 97.8M83.4 114.8 83.4 97.8M48.3 121.5 48.3 104.5M71.7 121.5 71.7 104.5M60 128.2 60 111.2"/><circle class="k" cx="24.9" cy="99.5" r="1.3"/><circle class="k" cx="95.1" cy="99.5" r="1.3"/><circle class="k" cx="36.6" cy="106.2" r="1.3"/><circle class="k" cx="83.4" cy="106.2" r="1.3"/><circle class="k" cx="48.3" cy="113" r="1.3"/><circle class="k" cx="71.7" cy="113" r="1.3"/><circle class="k" cx="60" cy="119.8" r="1.3"/><path class="f" d="M13.2 91 60 118 60 112 13.2 85Z"/><path class="f" d="M106.8 91 60 118 60 112 106.8 85Z"/><path class="f" d="M60 58 106.8 85 60 112 13.2 85Z"/><path class="t" d="M65.8 61.4 19.1 88.4M54.2 61.4 100.9 88.4M77.5 68.1 30.8 95.1M42.5 68.1 89.2 95.1M89.2 74.9 42.5 101.9M30.8 74.9 77.5 101.9M100.9 81.6 54.2 108.6M19.1 81.6 65.8 108.6"/><ellipse class="f" cx="60" cy="64.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="71.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="36.6" cy="78.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="24.9" cy="85" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="71.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="78.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="85" rx="3.2" ry="1.8"/><ellipse class="f" cx="36.6" cy="91.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="83.4" cy="78.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="85" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="91.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="98.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="95.1" cy="85" rx="3.2" ry="1.8"/><ellipse class="f" cx="83.4" cy="91.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="98.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="105.2" rx="3.2" ry="1.8"/><path class="d" d="M60 61.8 60 41.8M71.7 68.5 71.7 52.5M48.3 68.5 48.3 51.5M83.4 75.2 83.4 63.2M60 75.2 60 57.2M36.6 75.2 36.6 64.2M71.7 82 71.7 69M48.3 82 48.3 68M95.1 82 95.1 74M24.9 82 24.9 74M60 88.8 60 78.8M83.4 88.8 83.4 81.8M36.6 88.8 36.6 81.8"/><path class="f" d="M144.4 125 213.7 165 213.7 160 144.4 120Z"/><path class="f" d="M225.8 158 213.7 165 213.7 160 225.8 153Z"/><path class="f" d="M156.5 113 225.8 153 213.7 160 144.4 120Z"/><path class="f" d="M153.1 119 215.4 155 215.4 91 153.1 55Z"/><path class="f" d="M218 153.5 215.4 155 215.4 91 218 89.5Z"/><path class="f" d="M155.7 53.5 218 89.5 215.4 91 153.1 55Z"/><path class="t" d="M160 66 160 114 210.2 143"/><path class="t" d="M170 119.8 170 122.3M180.1 125.6 180.1 128.1M190.1 131.4 190.1 133.9M200.2 137.2 200.2 139.7"/><path d="M161.3 114.8 176.6 123.6"/><path d="M178.1 111.8 180.3 109.2 182.5 107.6 184.6 106.3 186.8 105.2 189 104.1 191.1 103 193.3 102 195.5 100.9 197.6 99.9 199.8 98.8 202 97.8 204.2 96.7 206.3 95.7 208.5 94.6"/><path class="a" d="M176.6 123.6 177.5 116.1 178.1 111.8"/><circle class="af" cx="176.6" cy="123.6" r="2"/></svg></span>
+            <span class="rm-kicker">Milestone 6</span>
+            <span class="rm-title">Real-material validation</span>
+            <span class="rm-meta">Projected</span>
+            <span class="rm-node"><span class="rm-dot" aria-hidden="true"></span><span class="rm-date">2030</span></span>
+          </a>
+        </li>
+        <li class="rm-item is-future">
+          <a class="rm-tab" id="tab-7" href="#step-7">
+            <span class="rm-art"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="f" d="M120 55l90.1 52 0 6-90.1 52-90.1-52 0-6zM210.1 107l-90.1 52-90.1-52M120 159l0 6"/><path class="f t" d="M120 52.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 56.5l-6.4 3.7-6.4-3.7M120 60.2l0 5M108.7 59.3l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM115.2 63l-6.5 3.7-6.4-3.7M108.7 66.7l0 5M131.3 59.3l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM137.7 63l-6.4 3.7-6.5-3.7M131.3 66.7l0 5M97.5 65.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM103.9 69.5l-6.4 3.7-6.4-3.7M97.5 73.2l0 5M120 65.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 69.5l-6.4 3.7-6.4-3.7M120 73.2l0 5M142.5 65.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM148.9 69.5l-6.4 3.7-6.4-3.7M142.5 73.2l0 5M86.2 72.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM92.6 76l-6.4 3.7-6.4-3.7M86.2 79.7l0 5M108.7 72.3l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM115.2 76l-6.5 3.7-6.4-3.7M108.7 79.7l0 5M131.3 72.3l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM137.7 76l-6.4 3.7-6.5-3.7M131.3 79.7l0 5M153.8 72.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM160.2 76l-6.4 3.7-6.4-3.7M153.8 79.7l0 5M75 78.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM81.4 82.5l-6.4 3.7-6.4-3.7M75 86.2l0 5M97.5 78.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM103.9 82.5l-6.4 3.7-6.4-3.7M97.5 86.2l0 5M120 78.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 82.5l-6.4 3.7-6.4-3.7M120 86.2l0 5M142.5 78.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM148.9 82.5l-6.4 3.7-6.4-3.7M142.5 86.2l0 5M165 78.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM171.4 82.5l-6.4 3.7-6.4-3.7M165 86.2l0 5M63.7 85.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM70.1 89l-6.4 3.7-6.4-3.7M63.7 92.7l0 5M86.2 85.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM92.6 89l-6.4 3.7-6.4-3.7M86.2 92.7l0 5M108.7 85.3l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM115.2 89l-6.5 3.7-6.4-3.7M108.7 92.7l0 5M131.3 85.3l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM137.7 89l-6.4 3.7-6.5-3.7M131.3 92.7l0 5M153.8 85.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM160.2 89l-6.4 3.7-6.4-3.7M153.8 92.7l0 5M176.3 85.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM182.7 89l-6.4 3.7-6.4-3.7M176.3 92.7l0 5M52.5 91.8l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM58.9 95.5l-6.4 3.7-6.5-3.7M52.5 99.2l0 5M75 91.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM81.4 95.5l-6.4 3.7-6.4-3.7M75 99.2l0 5M97.5 91.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM103.9 95.5l-6.4 3.7-6.4-3.7M97.5 99.2l0 5M120 91.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 95.5l-6.4 3.7-6.4-3.7M120 99.2l0 5M142.5 91.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM148.9 95.5l-6.4 3.7-6.4-3.7M142.5 99.2l0 5M165 91.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM171.4 95.5l-6.4 3.7-6.4-3.7M165 99.2l0 5M187.5 91.8l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM194 95.5l-6.5 3.7-6.4-3.7M187.5 99.2l0 5M41.2 98.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM47.6 102l-6.4 3.7-6.4-3.7M41.2 105.7l0 5M63.7 98.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM70.1 102l-6.4 3.7-6.4-3.7M63.7 105.7l0 5"/><path d="M85 107L86.2 100L87.4 107M86.2 100V93.8M84.5 100.8L86.2 94.8L87.9 100.8"/><circle class="k" cx="86.2" cy="91.4" r="2.1"/><path class="f t" d="M108.7 98.3l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM115.2 102l-6.5 3.7-6.4-3.7M108.7 105.7l0 5M131.3 98.3l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM137.7 102l-6.4 3.7-6.5-3.7M131.3 105.7l0 5M153.8 98.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM160.2 102l-6.4 3.7-6.4-3.7M153.8 105.7l0 5M176.3 98.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM182.7 102l-6.4 3.7-6.4-3.7M176.3 105.7l0 5M198.8 98.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM205.2 102l-6.4 3.7-6.4-3.7M198.8 105.7l0 5M52.5 104.8l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM58.9 108.5l-6.4 3.7-6.5-3.7M52.5 112.2l0 5M75 104.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM81.4 108.5l-6.4 3.7-6.4-3.7M75 112.2l0 5M97.5 104.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM103.9 108.5l-6.4 3.7-6.4-3.7M97.5 112.2l0 5M120 104.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 108.5l-6.4 3.7-6.4-3.7M120 112.2l0 5"/><path class="t" d="M142.5 109.8l6.4 3.7-6.4 3.7-6.4-3.7z"/><path class="f t" d="M165 104.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM171.4 108.5l-6.4 3.7-6.4-3.7M165 112.2l0 5M187.5 104.8l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM194 108.5l-6.5 3.7-6.4-3.7M187.5 112.2l0 5M63.7 111.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM70.1 115l-6.4 3.7-6.4-3.7M63.7 118.7l0 5M86.2 111.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM92.6 115l-6.4 3.7-6.4-3.7M86.2 118.7l0 5M108.7 111.3l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM115.2 115l-6.5 3.7-6.4-3.7M108.7 118.7l0 5M131.3 111.3l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM137.7 115l-6.4 3.7-6.5-3.7M131.3 118.7l0 5M153.8 111.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM160.2 115l-6.4 3.7-6.4-3.7M153.8 118.7l0 5M176.3 111.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM182.7 115l-6.4 3.7-6.4-3.7M176.3 118.7l0 5M75 117.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM81.4 121.5l-6.4 3.7-6.4-3.7M75 125.2l0 5M97.5 117.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM103.9 121.5l-6.4 3.7-6.4-3.7M97.5 125.2l0 5M120 117.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 121.5l-6.4 3.7-6.4-3.7M120 125.2l0 5M142.5 117.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM148.9 121.5l-6.4 3.7-6.4-3.7M142.5 125.2l0 5M165 117.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM171.4 121.5l-6.4 3.7-6.4-3.7M165 125.2l0 5M86.2 124.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM92.6 128l-6.4 3.7-6.4-3.7M86.2 131.7l0 5M108.7 124.3l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM115.2 128l-6.5 3.7-6.4-3.7M108.7 131.7l0 5M131.3 124.3l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM137.7 128l-6.4 3.7-6.5-3.7M131.3 131.7l0 5M153.8 124.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM160.2 128l-6.4 3.7-6.4-3.7M153.8 131.7l0 5M97.5 130.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM103.9 134.5l-6.4 3.7-6.4-3.7M97.5 138.2l0 5M120 130.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 134.5l-6.4 3.7-6.4-3.7M120 138.2l0 5M142.5 130.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM148.9 134.5l-6.4 3.7-6.4-3.7M142.5 138.2l0 5M108.7 137.3l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM115.2 141l-6.5 3.7-6.4-3.7M108.7 144.7l0 5M131.3 137.3l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM137.7 141l-6.4 3.7-6.5-3.7M131.3 144.7l0 5M120 143.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 147.5l-6.4 3.7-6.4-3.7M120 151.2l0 5"/><path class="d" d="M148.9 112.7V62M142.5 116.4V62M136.1 112.7V62"/><path class="f" d="M161 39.9l4.7-3.7-2.2-2.9-4.8 3.7zM166.6 37.3l15.7-12.3-3.9-5.1-15.8 12.3z"/><path class="f" d="M119.5 52a23 23 0 1 0 46 0a23 23 0 1 0 -46 0zM123 52a19.5 19.5 0 1 0 39 0a19.5 19.5 0 1 0 -39 0z"/><g class="a"><path class="f" d="M142.5 45.2l12.2 7.1 0 9.5-12.2 7-12.2-7 0-9.5zM154.7 52.3l-12.2 7-12.2-7M142.5 59.3l0 9.5"/><path class="t" d="M146.6 47.6l-12.2 7M138.5 47.6l12.1 7M150.6 49.9l-12.1 7.1M134.4 49.9l12.2 7.1"/></g></svg></span>
+            <span class="rm-kicker">Milestone 7</span>
+            <span class="rm-title">High-T<sub>c</sub> model search</span>
+            <span class="rm-meta">Projected</span>
+            <span class="rm-node"><span class="rm-dot" aria-hidden="true"></span><span class="rm-date">2030s</span></span>
+          </a>
+        </li>
+      </ol>
+    </div>
+
+    <div class="rm-panels">
+
+      <div class="rm-panel is-done" id="step-0">
+        <div class="rm-panel-text">
+          <p class="rm-panel-kicker">Milestone 0 · Achieved · June 2016 · The field</p>
+          <h3 id="step-0-h">NQS proposed</h3>
+          <p class="rm-brief">Carleo and Troyer encode the quantum many-body wavefunction in an artificial neural network and optimize it variationally — the birth of neural quantum states.</p>
+          <ol class="cites" role="list">
+            <li class="cite">
+              <p class="cite-authors">G. Carleo, M. Troyer</p>
+              <p class="cite-title">Solving the quantum many-body problem with artificial neural networks</p>
+              <p class="cite-meta"><em>Science</em> <strong class="vol">355</strong>, 602 (2017)</p>
+              <p class="btnrow"><a class="btn" href="https://www.science.org/doi/full/10.1126/science.aag2302" rel="noopener"><svg class="btn-glyph" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.5 2.5h4v4M13.5 2.5 7.5 8.5M12 9.5v3a1 1 0 0 1-1 1H3.5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3"/></svg>Paper<span class="visually-hidden"> (Science, 2017)</span></a></p>
+            </li>
+          </ol>
+        </div>
+        <div class="rm-panel-art" aria-hidden="true"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="t" d="M52 38L120 42M52 38L120 66M52 38L120 90M52 38L120 114M52 38L120 138M52 64L120 42M52 64L120 66M52 64L120 90M52 64L120 114M52 64L120 138M52 90L120 42M52 90L120 66M52 90L120 90M52 90L120 114M52 90L120 138M52 116L120 42M52 116L120 66M52 116L120 90M52 116L120 114M52 116L120 138M52 142L120 42M52 142L120 66M52 142L120 90M52 142L120 114M52 142L120 138M120 42L188 90M120 66L188 90M120 90L188 90M120 114L188 90M120 138L188 90"/><circle class="f" cx="52" cy="38" r="9"/><path d="M52 42.2V33.8M49.6 36.2L52 33.8L54.4 36.2"/><circle class="f" cx="52" cy="64" r="9"/><path d="M52 59.8V68.2M49.6 65.8L52 68.2L54.4 65.8"/><circle class="f" cx="52" cy="90" r="9"/><path d="M52 85.8V94.2M49.6 91.8L52 94.2L54.4 91.8"/><circle class="f" cx="52" cy="116" r="9"/><path d="M52 120.2V111.8M49.6 114.2L52 111.8L54.4 114.2"/><circle class="f" cx="52" cy="142" r="9"/><path d="M52 137.8V146.2M49.6 143.8L52 146.2L54.4 143.8"/><circle class="f" cx="120" cy="42" r="5.5"/><circle class="f" cx="120" cy="66" r="5.5"/><circle class="f" cx="120" cy="90" r="5.5"/><circle class="f" cx="120" cy="114" r="5.5"/><circle class="f" cx="120" cy="138" r="5.5"/><circle class="f a" cx="188" cy="90" r="12"/><path class="a" d="M180 86.75C181 84.5 183.75 84.25 183.5 88C183.12 92.5 185.25 94.25 188.25 94.25C191.75 94.25 194 91.5 194.5 88C194.75 86.25 195 85 195.75 84.25M190 82L186.38 98"/></svg></div>
+      </div>
+
+      <div class="rm-panel is-done" id="step-1">
+        <div class="rm-panel-text">
+          <p class="rm-panel-kicker">Milestone 1 · Achieved · June 2019 · The field</p>
+          <h3 id="step-1-h">Neural-network backflow</h3>
+          <p class="rm-brief">Luo and Clark let a neural network dress the orbitals of a Slater determinant with the positions of all other particles — a backflow transformation that carries neural quantum states from spins to strongly correlated fermions.</p>
+          <ol class="cites" role="list">
+            <li class="cite">
+              <p class="cite-authors">D. Luo, B. K. Clark</p>
+              <p class="cite-title">Backflow transformations via neural networks for quantum many-body wave functions</p>
+              <p class="cite-meta"><em>Phys. Rev. Lett.</em> <strong class="vol">122</strong>, 226401 (2019)</p>
+              <p class="btnrow"><a class="btn" href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.226401" rel="noopener"><svg class="btn-glyph" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.5 2.5h4v4M13.5 2.5 7.5 8.5M12 9.5v3a1 1 0 0 1-1 1H3.5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3"/></svg>Paper<span class="visually-hidden"> (Phys. Rev. Lett., 2019)</span></a></p>
+            </li>
+          </ol>
+        </div>
+        <div class="rm-panel-art" aria-hidden="true"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="t" d="M30 45L78 51M30 45L78 77M30 45L78 103M30 45L78 129M30 75L78 51M30 75L78 77M30 75L78 103M30 75L78 129M30 105L78 51M30 105L78 77M30 105L78 103M30 105L78 129M30 135L78 51M30 135L78 77M30 135L78 103M30 135L78 129"/><circle class="f" cx="30" cy="45" r="9"/><path d="M30 49.2V40.8M27.6 43.2L30 40.8L32.4 43.2"/><circle class="f" cx="30" cy="75" r="9"/><circle class="f" cx="30" cy="105" r="9"/><path d="M27.4 108.8V101.2M25.4 103.2L27.4 101.2L29.4 103.2M32.6 101.2V108.8M30.6 106.8L32.6 108.8L34.6 106.8"/><circle class="f" cx="30" cy="135" r="9"/><path d="M30 130.8V139.2M27.6 136.8L30 139.2L32.4 136.8"/><circle class="f" cx="78" cy="51" r="5.5"/><circle class="f" cx="78" cy="77" r="5.5"/><circle class="f" cx="78" cy="103" r="5.5"/><circle class="f" cx="78" cy="129" r="5.5"/><path d="M92 90H110M106.5 86.5L110 90L106.5 93.5"/><rect class="f" x="124" y="70" width="40" height="40"/><path class="t" d="M124 80H164M124 90H164M124 100H164M134 70V110M144 70V110M154 70V110"/><path d="M118 67V113M170 67V113"/><path d="M178 90H196M192.5 86.5L196 90L192.5 93.5"/><circle class="f a" cx="212" cy="90" r="12"/><path class="a" d="M204 86.75C205 84.5 207.75 84.25 207.5 88C207.12 92.5 209.25 94.25 212.25 94.25C215.75 94.25 218 91.5 218.5 88C218.75 86.25 219 85 219.75 84.25M214 82L210.38 98"/></svg></div>
+      </div>
+
+      <div class="rm-panel is-done" id="step-2">
+        <div class="rm-panel-text">
+          <p class="rm-panel-kicker">Milestone 2 · Achieved · July 2024</p>
+          <h3 id="step-2-h">Scalable NQS with more than 10<sup>6</sup> parameters</h3>
+          <p class="rm-brief">Until then, neural quantum states were limited to very few parameters. Chen and Heyl choose a suitable optimizer that trains large-scale networks efficiently, bringing neural quantum states into the deep-learning era, where they can truly surpass traditional numerical methods and reveal new physics.</p>
+          <ol class="cites" role="list">
+            <li class="cite">
+              <p class="cite-authors"><strong>A. Chen</strong>, M. Heyl <span class="tag tag-own">Own work</span></p>
+              <p class="cite-title">Empowering deep neural quantum states through efficient optimization</p>
+              <p class="cite-meta"><em>Nat. Phys.</em> <strong class="vol">20</strong>, 1476–1481 (2024)</p>
+              <p class="btnrow">
+                <a class="btn" href="https://www.nature.com/articles/s41567-024-02566-1" rel="noopener"><svg class="btn-glyph" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.5 2.5h4v4M13.5 2.5 7.5 8.5M12 9.5v3a1 1 0 0 1-1 1H3.5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3"/></svg>Paper<span class="visually-hidden"> (Nature Physics, 2024)</span></a>
+                <a class="btn" href="https://github.com/ChenAo-Phys/MinSR" rel="noopener"><svg class="btn-glyph" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.5 2.5h4v4M13.5 2.5 7.5 8.5M12 9.5v3a1 1 0 0 1-1 1H3.5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3"/></svg>Data &amp; code<span class="visually-hidden"> (MinSR on GitHub)</span></a>
+              </p>
+            </li>
+          </ol>
+          <p class="rm-xref"><a href="#highlight-1">Research highlight <span aria-hidden="true">↓</span></a></p>
+        </div>
+        <div class="rm-panel-art" aria-hidden="true"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="t" d="M32 35H62M32 57H62M32 79H62M32 101H62M32 123H62M32 145H62M178 40L206 90M178 60L206 90M178 80L206 90M178 100L206 90M178 120L206 90M178 140L206 90"/><rect class="f" x="62" y="28" width="12" height="124" rx="4"/><circle class="k" cx="68" cy="38" r="1.4"/><circle class="k" cx="68" cy="51" r="1.4"/><circle class="k" cx="68" cy="64" r="1.4"/><circle class="k" cx="68" cy="77" r="1.4"/><circle class="k" cx="68" cy="90" r="1.4"/><circle class="k" cx="68" cy="103" r="1.4"/><circle class="k" cx="68" cy="116" r="1.4"/><circle class="k" cx="68" cy="129" r="1.4"/><circle class="k" cx="68" cy="142" r="1.4"/><path d="M77 90H85M82 87L85 90L82 93"/><rect class="f" x="88" y="28" width="12" height="124" rx="4"/><circle class="k" cx="94" cy="38" r="1.4"/><circle class="k" cx="94" cy="51" r="1.4"/><circle class="k" cx="94" cy="64" r="1.4"/><circle class="k" cx="94" cy="77" r="1.4"/><circle class="k" cx="94" cy="90" r="1.4"/><circle class="k" cx="94" cy="103" r="1.4"/><circle class="k" cx="94" cy="116" r="1.4"/><circle class="k" cx="94" cy="129" r="1.4"/><circle class="k" cx="94" cy="142" r="1.4"/><path d="M103 90H111M108 87L111 90L108 93"/><rect class="f" x="114" y="28" width="12" height="124" rx="4"/><circle class="k" cx="120" cy="38" r="1.4"/><circle class="k" cx="120" cy="51" r="1.4"/><circle class="k" cx="120" cy="64" r="1.4"/><circle class="k" cx="120" cy="77" r="1.4"/><circle class="k" cx="120" cy="90" r="1.4"/><circle class="k" cx="120" cy="103" r="1.4"/><circle class="k" cx="120" cy="116" r="1.4"/><circle class="k" cx="120" cy="129" r="1.4"/><circle class="k" cx="120" cy="142" r="1.4"/><path d="M129 90H137M134 87L137 90L134 93"/><rect class="f" x="140" y="28" width="12" height="124" rx="4"/><circle class="k" cx="146" cy="38" r="1.4"/><circle class="k" cx="146" cy="51" r="1.4"/><circle class="k" cx="146" cy="64" r="1.4"/><circle class="k" cx="146" cy="77" r="1.4"/><circle class="k" cx="146" cy="90" r="1.4"/><circle class="k" cx="146" cy="103" r="1.4"/><circle class="k" cx="146" cy="116" r="1.4"/><circle class="k" cx="146" cy="129" r="1.4"/><circle class="k" cx="146" cy="142" r="1.4"/><path d="M155 90H163M160 87L163 90L160 93"/><rect class="f" x="166" y="28" width="12" height="124" rx="4"/><circle class="k" cx="172" cy="38" r="1.4"/><circle class="k" cx="172" cy="51" r="1.4"/><circle class="k" cx="172" cy="64" r="1.4"/><circle class="k" cx="172" cy="77" r="1.4"/><circle class="k" cx="172" cy="90" r="1.4"/><circle class="k" cx="172" cy="103" r="1.4"/><circle class="k" cx="172" cy="116" r="1.4"/><circle class="k" cx="172" cy="129" r="1.4"/><circle class="k" cx="172" cy="142" r="1.4"/><circle class="f" cx="32" cy="35" r="8"/><path d="M32 39.2V30.8M29.6 33.2L32 30.8L34.4 33.2"/><circle class="f" cx="32" cy="57" r="8"/><path d="M32 52.8V61.2M29.6 58.8L32 61.2L34.4 58.8"/><circle class="f" cx="32" cy="79" r="8"/><path d="M32 74.8V83.2M29.6 80.8L32 83.2L34.4 80.8"/><circle class="f" cx="32" cy="101" r="8"/><path d="M32 105.2V96.8M29.6 99.2L32 96.8L34.4 99.2"/><circle class="f" cx="32" cy="123" r="8"/><path d="M32 118.8V127.2M29.6 124.8L32 127.2L34.4 124.8"/><circle class="f" cx="32" cy="145" r="8"/><path d="M32 149.2V140.8M29.6 143.2L32 140.8L34.4 143.2"/><circle class="f a" cx="206" cy="90" r="12"/><path class="a" d="M198 86.75C199 84.5 201.75 84.25 201.5 88C201.12 92.5 203.25 94.25 206.25 94.25C209.75 94.25 212 91.5 212.5 88C212.75 86.25 213 85 213.75 84.25M208 82L204.38 98"/></svg></div>
+      </div>
+
+      <div class="rm-panel is-done" id="step-3">
+        <div class="rm-panel-text">
+          <p class="rm-panel-kicker">Milestone 3 · Achieved · 2026</p>
+          <h3 id="step-3-h">NQS relative error ~10<sup>−3</sup> (condensation energy) in the Hubbard model</h3>
+          <p class="rm-brief">Neural quantum states reach a relative energy error of ~10<sup>−3</sup> in the Hubbard model — the scale of the superconducting condensation energy — so near-degenerate superconducting and competing states can be distinguished numerically.</p>
+          <ol class="cites" role="list">
+            <li class="cite">
+              <p class="cite-authors"><strong>A. Chen</strong>, J. Gray, S.-J. Du, G. K.-L. Chan <span class="tag tag-own">Own work</span></p>
+              <p class="cite-title">Extreme competition between stripes and superconductivity in the hole-doped Hubbard model</p>
+              <p class="cite-meta"><span class="mono">arXiv:2610.30321</span> (2026)</p>
+              <p class="btnrow">
+                <a class="btn" href="https://arxiv.org/abs/2610.30321" rel="noopener"><svg class="btn-glyph" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.5 2.5h4v4M13.5 2.5 7.5 8.5M12 9.5v3a1 1 0 0 1-1 1H3.5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3"/></svg>Paper<span class="visually-hidden"> (arXiv:2610.30321)</span></a>
+                <a class="btn" href="https://github.com/ChenAo-Phys/NeuralHubbard" rel="noopener"><svg class="btn-glyph" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.5 2.5h4v4M13.5 2.5 7.5 8.5M12 9.5v3a1 1 0 0 1-1 1H3.5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3"/></svg>Data &amp; code<span class="visually-hidden"> (NeuralHubbard on GitHub)</span></a>
+              </p>
+            </li>
+          </ol>
+          <p class="rm-xref"><a href="#highlight-2">Research highlight <span aria-hidden="true">↓</span></a></p>
+        </div>
+        <div class="rm-panel-art" aria-hidden="true"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="d" d="M112,62H132M128,110H108"/><path class="a" d="M120,63.5V108.5M117.8,66.3L120,63.5L122.2,66.3M117.8,105.7L120,108.5L122.2,105.7"/><path class="f" d="M112,62 64,89.6 64,95.6 112,68Z"/><path class="f" d="M16,62 64,89.6 64,95.6 16,68Z"/><path class="f" d="M64,34.4 112,62 64,89.6 16,62Z"/><path class="t" d="M64,41.3L28,62M64,41.3L100,62M76,48.2L40,68.9M52,48.2L88,68.9M88,55.1L52,75.8M40,55.1L76,75.8M100,62L64,82.7M28,62L64,82.7"/><path stroke-width="2.4" d="M64,41.3L76,48.2M88,55.1L76,62M100,62L88,68.9M52,48.2L40,55.1M64,68.9L76,75.8M28,62L40,68.9M52,75.8L64,82.7"/><path class="a" stroke-width="2.4" d="M64,55.1L52,62"/><ellipse class="k" cx="64" cy="41.3" rx="3.4" ry="2"/><ellipse class="k" cx="52" cy="48.2" rx="3.4" ry="2"/><ellipse class="k" cx="76" cy="48.2" rx="3.4" ry="2"/><ellipse class="k" cx="40" cy="55.1" rx="3.4" ry="2"/><ellipse class="f d" cx="64" cy="55.1" rx="4.6" ry="2.7"/><ellipse class="k" cx="88" cy="55.1" rx="3.4" ry="2"/><ellipse class="k" cx="28" cy="62" rx="3.4" ry="2"/><ellipse class="f d" cx="52" cy="62" rx="4.6" ry="2.7"/><ellipse class="k" cx="76" cy="62" rx="3.4" ry="2"/><ellipse class="k" cx="100" cy="62" rx="3.4" ry="2"/><ellipse class="k" cx="40" cy="68.9" rx="3.4" ry="2"/><ellipse class="k" cx="64" cy="68.9" rx="3.4" ry="2"/><ellipse class="k" cx="88" cy="68.9" rx="3.4" ry="2"/><ellipse class="k" cx="52" cy="75.8" rx="3.4" ry="2"/><ellipse class="k" cx="76" cy="75.8" rx="3.4" ry="2"/><ellipse class="k" cx="64" cy="82.7" rx="3.4" ry="2"/><path class="f" d="M224,110 176,137.6 176,143.6 224,116Z"/><path class="f" d="M128,110 176,137.6 176,143.6 128,116Z"/><path class="f" d="M176,82.4 224,110 176,137.6 128,110Z"/><path class="t" d="M176,89.3L140,110M176,89.3L212,110M188,96.2L152,116.9M164,96.2L200,116.9M200,103.1L164,123.8M152,103.1L188,123.8M212,110L176,130.7M140,110L176,130.7"/><ellipse class="f" cx="176" cy="89.3" rx="3" ry="1.7"/><path d="M176,89.3V78.3M174,80.8L176,78.3L178,80.8"/><ellipse class="f" cx="164" cy="96.2" rx="3" ry="1.7"/><path d="M164,85.2V94.7M162,92.2L164,94.7L166,92.2"/><ellipse class="f" cx="188" cy="96.2" rx="3" ry="1.7"/><path d="M188,85.2V94.7M186,92.2L188,94.7L190,92.2"/><ellipse class="f" cx="152" cy="103.1" rx="3" ry="1.7"/><path d="M152,103.1V92.1M150,94.6L152,92.1L154,94.6"/><ellipse class="f" cx="176" cy="103.1" rx="3" ry="1.7"/><path d="M176,103.1V92.1M174,94.6L176,92.1L178,94.6"/><ellipse class="f d" cx="200" cy="103.1" rx="4.6" ry="2.7"/><ellipse class="f" cx="140" cy="110" rx="3" ry="1.7"/><path d="M140,99V108.5M138,106L140,108.5L142,106"/><ellipse class="f" cx="164" cy="110" rx="3" ry="1.7"/><path d="M164,99V108.5M162,106L164,108.5L166,106"/><ellipse class="f d" cx="188" cy="110" rx="4.6" ry="2.7"/><ellipse class="f" cx="212" cy="110" rx="3" ry="1.7"/><path d="M212,110V99M210,101.5L212,99L214,101.5"/><ellipse class="f" cx="152" cy="116.9" rx="3" ry="1.7"/><path d="M152,116.9V105.9M150,108.4L152,105.9L154,108.4"/><ellipse class="f d" cx="176" cy="116.9" rx="4.6" ry="2.7"/><ellipse class="f" cx="200" cy="116.9" rx="3" ry="1.7"/><path d="M200,105.9V115.4M198,112.9L200,115.4L202,112.9"/><ellipse class="f d" cx="164" cy="123.8" rx="4.6" ry="2.7"/><ellipse class="f" cx="188" cy="123.8" rx="3" ry="1.7"/><path d="M188,123.8V112.8M186,115.3L188,112.8L190,115.3"/><ellipse class="f" cx="176" cy="130.7" rx="3" ry="1.7"/><path d="M176,119.7V129.2M174,126.7L176,129.2L178,126.7"/></svg></div>
+      </div>
+
+      <div class="rm-panel is-future" id="step-4">
+        <div class="rm-panel-text">
+          <p class="rm-panel-kicker">Milestone 4 · Projected · 2027</p>
+          <h3 id="step-4-h">First solid numerical evidence of high-T<sub>c</sub> superconductivity in Hubbard-like models</h3>
+          <p class="rm-brief">It has long been proposed that high-T<sub>c</sub> superconductivity can arise purely from electronic interactions, but numerical simulations have lacked the accuracy to confirm it. With the improving accuracy of neural quantum states, this hypothesis is expected to be credibly verified numerically.</p>
+          <p class="rm-nopub">Projected milestone — no publication yet.</p>
+        </div>
+        <div class="rm-panel-art" aria-hidden="true"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="f" d="M35.8 116.4L120 165L204.2 116.4L204.2 107L120 155.6L35.8 107Z"/><path class="f" d="M120 58.3L204.2 107L120 155.6L35.8 107Z"/><path d="M120 165L120 155.6"/><path stroke-width="1.5" d="M120 68.1L136.8 77.8M153.7 87.5L170.5 97.2M187.3 107L170.5 116.7M103.2 77.8L86.3 87.5M120 87.5L136.8 97.2M103.2 97.2L86.3 107M120 107L136.8 116.7M153.7 126.4L136.8 136.1M69.5 97.2L52.7 107M103.2 116.7L120 126.4M69.5 116.7L86.3 126.4M103.2 136.1L120 145.8"/><ellipse class="k" cx="120" cy="68.1" rx="4.3" ry="2.5"/><ellipse class="k" cx="103.2" cy="77.8" rx="4.3" ry="2.5"/><ellipse class="k" cx="136.8" cy="77.8" rx="4.3" ry="2.5"/><ellipse class="k" cx="86.3" cy="87.5" rx="4.3" ry="2.5"/><ellipse class="k" cx="120" cy="87.5" rx="4.3" ry="2.5"/><ellipse class="k" cx="153.7" cy="87.5" rx="4.3" ry="2.5"/><ellipse class="k" cx="69.5" cy="97.2" rx="4.3" ry="2.5"/><ellipse class="k" cx="103.2" cy="97.2" rx="4.3" ry="2.5"/><ellipse class="k" cx="136.8" cy="97.2" rx="4.3" ry="2.5"/><ellipse class="k" cx="170.5" cy="97.2" rx="4.3" ry="2.5"/><ellipse class="k" cx="52.7" cy="107" rx="4.3" ry="2.5"/><ellipse class="k" cx="86.3" cy="107" rx="4.3" ry="2.5"/><ellipse class="k" cx="120" cy="107" rx="4.3" ry="2.5"/><ellipse class="f" cx="153.7" cy="107" rx="5.1" ry="3"/><ellipse class="k" cx="187.3" cy="107" rx="4.3" ry="2.5"/><ellipse class="k" cx="69.5" cy="116.7" rx="4.3" ry="2.5"/><ellipse class="k" cx="103.2" cy="116.7" rx="4.3" ry="2.5"/><ellipse class="k" cx="136.8" cy="116.7" rx="4.3" ry="2.5"/><ellipse class="k" cx="170.5" cy="116.7" rx="4.3" ry="2.5"/><ellipse class="k" cx="86.3" cy="126.4" rx="4.3" ry="2.5"/><ellipse class="k" cx="120" cy="126.4" rx="4.3" ry="2.5"/><ellipse class="k" cx="153.7" cy="126.4" rx="4.3" ry="2.5"/><ellipse class="k" cx="103.2" cy="136.1" rx="4.3" ry="2.5"/><ellipse class="k" cx="136.8" cy="136.1" rx="4.3" ry="2.5"/><ellipse class="k" cx="120" cy="145.8" rx="4.3" ry="2.5"/><path class="d" d="M120 107V30.5"/><path class="f a" d="M120 30.5L117.2 30.5L114.5 30.3L111.8 30L109.2 29.5L106.7 29L104.3 28.4L102.1 27.6L100.1 26.8L98.3 25.9L96.8 25L95.5 24L94.4 23L93.6 22L93 21L92.7 20L92.6 19.1L92.9 18.2L93.3 17.4L94 16.6L94.9 16L95.9 15.5L97.2 15.1L98.6 14.9L100.1 14.7L101.8 14.8L103.5 14.9L105.2 15.3L106.9 15.7L108.7 16.4L110.4 17.1L112 18L113.5 19.1L115 20.2L116.2 21.5L117.3 22.8L118.3 24.3L119 25.8L119.6 27.3L119.9 28.9L120 30.5Z"/><path class="f a" d="M120 30.5L120.1 28.9L120.4 27.3L121 25.8L121.7 24.3L122.7 22.8L123.8 21.5L125 20.2L126.5 19.1L128 18L129.6 17.1L131.3 16.4L133.1 15.7L134.8 15.3L136.5 14.9L138.2 14.8L139.9 14.7L141.4 14.9L142.8 15.1L144.1 15.5L145.1 16L146 16.6L146.7 17.4L147.1 18.2L147.4 19.1L147.3 20L147 21L146.4 22L145.6 23L144.5 24L143.2 25L141.7 25.9L139.9 26.8L137.9 27.6L135.7 28.4L133.3 29L130.8 29.5L128.2 30L125.5 30.3L122.8 30.5L120 30.5Z"/><path class="f a" d="M120 30.5L122.8 30.6L125.5 30.8L128.2 31.1L130.8 31.5L133.3 32.1L135.7 32.7L137.9 33.4L139.9 34.3L141.7 35.1L143.2 36.1L144.5 37.1L145.6 38.1L146.4 39.1L147 40.1L147.3 41.1L147.4 42L147.1 42.9L146.7 43.7L146 44.4L145.1 45L144.1 45.6L142.8 45.9L141.4 46.2L139.9 46.3L138.2 46.3L136.5 46.1L134.8 45.8L133.1 45.3L131.3 44.7L129.6 43.9L128 43L126.5 42L125 40.9L123.8 39.6L122.7 38.2L121.7 36.8L121 35.3L120.4 33.7L120.1 32.1L120 30.5Z"/><path class="f a" d="M120 30.5L119.9 32.1L119.6 33.7L119 35.3L118.3 36.8L117.3 38.2L116.2 39.6L115 40.9L113.5 42L112 43L110.4 43.9L108.7 44.7L106.9 45.3L105.2 45.8L103.5 46.1L101.8 46.3L100.1 46.3L98.6 46.2L97.2 45.9L95.9 45.6L94.9 45L94 44.4L93.3 43.7L92.9 42.9L92.6 42L92.7 41.1L93 40.1L93.6 39.1L94.4 38.1L95.5 37.1L96.8 36.1L98.3 35.1L100.1 34.3L102.1 33.4L104.3 32.7L106.7 32.1L109.2 31.5L111.8 31.1L114.5 30.8L117.2 30.6L120 30.5Z"/><path class="t a" d="M124.9 31.1L121 33.3M129.6 31.7L122 36.1M133.9 32.7L123.7 38.5M137.6 33.9L125.8 40.7M140.9 35.4L128.4 42.6M143.7 37.1L131.4 44.2M145.8 39.3L135.1 45.4M146.8 42L139.9 46M115.1 30L119 27.7M110.4 29.4L118 25M106.1 28.4L116.3 22.5M102.4 27.2L114.2 20.4M99.1 25.7L111.6 18.5M96.3 24L108.6 16.9M94.2 21.8L104.9 15.6M93.2 19L100.1 15"/></svg></div>
+      </div>
+
+      <div class="rm-panel is-future" id="step-5">
+        <div class="rm-panel-text">
+          <p class="rm-panel-kicker">Milestone 5 · Projected · 2028–2029</p>
+          <h3 id="step-5-h">Foundation model for <span class="nowrap"><em>d</em>-wave</span> superconductivity and competing states</h3>
+          <p class="rm-brief">A single pretrained network that captures <span class="nowrap"><em>d</em>-wave</span> superconductivity together with its competing states, such as stripes, across models and parameter regimes.</p>
+          <p class="rm-nopub">Projected milestone — no publication yet.</p>
+        </div>
+        <div class="rm-panel-art" aria-hidden="true"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="t" d="M120 90.3L42.9 90.3M120 86.6L42.9 86.6M120 82.8L42.9 82.8M120 82.8L197.1 82.8M120 86.6L197.1 86.6M120 90.3L197.1 90.3M126.5 86.6L126.5 145.9M120 86.6L120 145.9M113.5 86.6L113.5 145.9"/><path class="f" d="M72.3 88.7L42.9 105.6L42.9 99.3L72.3 82.3Z"/><path class="f" d="M13.5 88.7L42.9 105.6L42.9 99.3L13.5 82.3Z"/><path class="f" d="M42.9 65.4L72.3 82.3L42.9 99.3L13.5 82.3Z"/><path class="k" d="M46.7 70.2L49.2 71.7L24.4 86L21.9 84.5ZM54 74.4L56.6 75.9L31.8 90.2L29.2 88.7ZM61.3 78.7L63.9 80.1L39.1 94.5L36.6 93Z"/><path class="f" d="M226.5 88.7L197.1 105.6L197.1 99.3L226.5 82.3Z"/><path class="f" d="M167.7 88.7L197.1 105.6L197.1 99.3L167.7 82.3Z"/><path class="f" d="M197.1 65.4L226.5 82.3L197.1 99.3L167.7 82.3Z"/><path class="t" d="M197.1 68L221.9 82.3L197.1 96.6L172.3 82.3Z"/><path class="k" d="M197.1 68L203.3 71.6L197.1 75.2L190.9 71.6ZM184.7 75.2L190.9 78.7L184.7 82.3L178.5 78.7ZM197.1 75.2L203.3 78.7L197.1 82.3L190.9 78.7ZM184.7 82.3L190.9 85.9L184.7 89.5L178.5 85.9ZM209.5 75.2L215.7 78.7L209.5 82.3L203.3 78.7ZM197.1 82.3L203.3 85.9L197.1 89.5L190.9 85.9ZM209.5 82.3L215.7 85.9L209.5 89.5L203.3 85.9ZM197.1 89.5L203.3 93.1L197.1 96.6L190.9 93.1Z"/><path class="f" d="M160.4 88.7L120 112L120 80.2L160.4 56.9Z"/><path class="f" d="M79.6 88.7L120 112L120 80.2L79.6 56.9Z"/><path class="f" d="M120 33.6L160.4 56.9L120 80.2L79.6 56.9Z"/><path class="t" d="M160.4 78.1L120 101.4M79.6 78.1L120 101.4M160.4 67.5L120 90.8M79.6 67.5L120 90.8"/><path class="d" d="M87.9 56.1L87.9 40.2M92.5 53.2L92.5 28.8M97.1 60.6L97.1 44.7M101.6 53.7L101.6 23M106.2 59.8L106.2 37.5M110.8 46.3L110.8 14.5M115.4 55.8L115.4 33.6M120 66.4L120 31.4M124.6 50.3L124.6 24.8M129.2 59L129.2 25.1M133.8 49.2L133.8 30.1M138.4 60.1L138.4 35.7M142.9 55L142.9 28.5M147.5 59L147.5 45.2M152.1 54.8L152.1 38.9"/><path class="f" d="M149.4 148L120 165L120 158.6L149.4 141.7Z"/><path class="f" d="M90.6 148L120 165L120 158.6L90.6 141.7Z"/><path class="f" d="M120 124.7L149.4 141.7L120 158.6L90.6 141.7Z"/><path class="a" d="M120 141.7L122.5 141.8L124.8 142L127.1 142.5L129.1 143.1L130.9 143.8L132.3 144.6L133.4 145.5L134.1 146.4L134.5 147.3L134.4 148.1L134 148.8L133.3 149.4L132.3 149.8L131.1 150L129.7 150L128.2 149.8L126.6 149.4L125.1 148.8L123.7 147.9L122.4 146.9L121.4 145.8L120.6 144.5L120.2 143.1L120 141.7ZM120 141.7L119.8 143.1L119.4 144.5L118.6 145.8L117.6 146.9L116.3 147.9L114.9 148.8L113.4 149.4L111.8 149.8L110.3 150L108.9 150L107.7 149.8L106.7 149.4L106 148.8L105.6 148.1L105.5 147.3L105.9 146.4L106.6 145.5L107.7 144.6L109.1 143.8L110.9 143.1L112.9 142.5L115.2 142L117.5 141.8L120 141.7ZM120 141.7L117.5 141.6L115.2 141.3L112.9 140.9L110.9 140.3L109.1 139.6L107.7 138.7L106.6 137.9L105.9 137L105.5 136.1L105.6 135.3L106 134.6L106.7 134L107.7 133.6L108.9 133.4L110.3 133.3L111.8 133.5L113.4 133.9L114.9 134.6L116.3 135.4L117.6 136.4L118.6 137.6L119.4 138.9L119.8 140.3L120 141.7ZM120 141.7L120.2 140.3L120.6 138.9L121.4 137.6L122.4 136.4L123.7 135.4L125.1 134.6L126.6 133.9L128.2 133.5L129.7 133.3L131.1 133.4L132.3 133.6L133.3 134L134 134.6L134.4 135.3L134.5 136.1L134.1 137L133.4 137.9L132.3 138.7L130.9 139.6L129.1 140.3L127.1 140.9L124.8 141.3L122.5 141.6L120 141.7Z"/></svg></div>
+      </div>
+
+      <div class="rm-panel is-future" id="step-6">
+        <div class="rm-panel-text">
+          <p class="rm-panel-kicker">Milestone 6 · Projected · 2030</p>
+          <h3 id="step-6-h">Validation of NQS against real-material T<sub>c</sub></h3>
+          <p class="rm-brief">Benchmark NQS predictions against the measured T<sub>c</sub> of real materials.</p>
+          <p class="rm-nopub">Projected milestone — no publication yet.</p>
+        </div>
+        <div class="rm-panel-art" aria-hidden="true"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="f" d="M13.2 137 60 164 60 158 13.2 131Z"/><path class="f" d="M106.8 137 60 164 60 158 106.8 131Z"/><path class="f" d="M60 104 106.8 131 60 158 13.2 131Z"/><path class="t" d="M65.8 107.4 19.1 134.4M54.2 107.4 100.9 134.4M77.5 114.1 30.8 141.1M42.5 114.1 89.2 141.1M89.2 120.9 42.5 147.9M30.8 120.9 77.5 147.9M100.9 127.6 54.2 154.6M19.1 127.6 65.8 154.6"/><ellipse class="f" cx="60" cy="110.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="117.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="36.6" cy="124.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="24.9" cy="131" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="117.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="124.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="131" rx="3.2" ry="1.8"/><ellipse class="f" cx="36.6" cy="137.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="83.4" cy="124.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="131" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="137.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="144.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="95.1" cy="131" rx="3.2" ry="1.8"/><ellipse class="f" cx="83.4" cy="137.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="144.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="151.2" rx="3.2" ry="1.8"/><path d="M24.9 131 24.9 114M95.1 131 95.1 114M36.6 137.8 36.6 120.8M83.4 137.8 83.4 120.8M48.3 144.5 48.3 127.5M71.7 144.5 71.7 127.5M60 151.2 60 134.2"/><circle class="k" cx="24.9" cy="122.5" r="1.3"/><circle class="k" cx="95.1" cy="122.5" r="1.3"/><circle class="k" cx="36.6" cy="129.2" r="1.3"/><circle class="k" cx="83.4" cy="129.2" r="1.3"/><circle class="k" cx="48.3" cy="136" r="1.3"/><circle class="k" cx="71.7" cy="136" r="1.3"/><circle class="k" cx="60" cy="142.8" r="1.3"/><path class="f" d="M13.2 114 60 141 60 135 13.2 108Z"/><path class="f" d="M106.8 114 60 141 60 135 106.8 108Z"/><path class="f" d="M60 81 106.8 108 60 135 13.2 108Z"/><path class="t" d="M65.8 84.4 19.1 111.4M54.2 84.4 100.9 111.4M77.5 91.1 30.8 118.1M42.5 91.1 89.2 118.1M89.2 97.9 42.5 124.9M30.8 97.9 77.5 124.9M100.9 104.6 54.2 131.6M19.1 104.6 65.8 131.6"/><ellipse class="f" cx="60" cy="87.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="94.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="36.6" cy="101.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="24.9" cy="108" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="94.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="101.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="108" rx="3.2" ry="1.8"/><ellipse class="f" cx="36.6" cy="114.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="83.4" cy="101.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="108" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="114.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="121.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="95.1" cy="108" rx="3.2" ry="1.8"/><ellipse class="f" cx="83.4" cy="114.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="121.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="128.2" rx="3.2" ry="1.8"/><path d="M24.9 108 24.9 91M95.1 108 95.1 91M36.6 114.8 36.6 97.8M83.4 114.8 83.4 97.8M48.3 121.5 48.3 104.5M71.7 121.5 71.7 104.5M60 128.2 60 111.2"/><circle class="k" cx="24.9" cy="99.5" r="1.3"/><circle class="k" cx="95.1" cy="99.5" r="1.3"/><circle class="k" cx="36.6" cy="106.2" r="1.3"/><circle class="k" cx="83.4" cy="106.2" r="1.3"/><circle class="k" cx="48.3" cy="113" r="1.3"/><circle class="k" cx="71.7" cy="113" r="1.3"/><circle class="k" cx="60" cy="119.8" r="1.3"/><path class="f" d="M13.2 91 60 118 60 112 13.2 85Z"/><path class="f" d="M106.8 91 60 118 60 112 106.8 85Z"/><path class="f" d="M60 58 106.8 85 60 112 13.2 85Z"/><path class="t" d="M65.8 61.4 19.1 88.4M54.2 61.4 100.9 88.4M77.5 68.1 30.8 95.1M42.5 68.1 89.2 95.1M89.2 74.9 42.5 101.9M30.8 74.9 77.5 101.9M100.9 81.6 54.2 108.6M19.1 81.6 65.8 108.6"/><ellipse class="f" cx="60" cy="64.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="71.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="36.6" cy="78.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="24.9" cy="85" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="71.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="78.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="85" rx="3.2" ry="1.8"/><ellipse class="f" cx="36.6" cy="91.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="83.4" cy="78.2" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="85" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="91.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="48.3" cy="98.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="95.1" cy="85" rx="3.2" ry="1.8"/><ellipse class="f" cx="83.4" cy="91.8" rx="3.2" ry="1.8"/><ellipse class="f" cx="71.7" cy="98.5" rx="3.2" ry="1.8"/><ellipse class="f" cx="60" cy="105.2" rx="3.2" ry="1.8"/><path class="d" d="M60 61.8 60 41.8M71.7 68.5 71.7 52.5M48.3 68.5 48.3 51.5M83.4 75.2 83.4 63.2M60 75.2 60 57.2M36.6 75.2 36.6 64.2M71.7 82 71.7 69M48.3 82 48.3 68M95.1 82 95.1 74M24.9 82 24.9 74M60 88.8 60 78.8M83.4 88.8 83.4 81.8M36.6 88.8 36.6 81.8"/><path class="f" d="M144.4 125 213.7 165 213.7 160 144.4 120Z"/><path class="f" d="M225.8 158 213.7 165 213.7 160 225.8 153Z"/><path class="f" d="M156.5 113 225.8 153 213.7 160 144.4 120Z"/><path class="f" d="M153.1 119 215.4 155 215.4 91 153.1 55Z"/><path class="f" d="M218 153.5 215.4 155 215.4 91 218 89.5Z"/><path class="f" d="M155.7 53.5 218 89.5 215.4 91 153.1 55Z"/><path class="t" d="M160 66 160 114 210.2 143"/><path class="t" d="M170 119.8 170 122.3M180.1 125.6 180.1 128.1M190.1 131.4 190.1 133.9M200.2 137.2 200.2 139.7"/><path d="M161.3 114.8 176.6 123.6"/><path d="M178.1 111.8 180.3 109.2 182.5 107.6 184.6 106.3 186.8 105.2 189 104.1 191.1 103 193.3 102 195.5 100.9 197.6 99.9 199.8 98.8 202 97.8 204.2 96.7 206.3 95.7 208.5 94.6"/><path class="a" d="M176.6 123.6 177.5 116.1 178.1 111.8"/><circle class="af" cx="176.6" cy="123.6" r="2"/></svg></div>
+      </div>
+
+      <div class="rm-panel is-future" id="step-7">
+        <div class="rm-panel-text">
+          <p class="rm-panel-kicker">Milestone 7 · Projected · 2030s</p>
+          <h3 id="step-7-h">Search for a model with high T<sub>c</sub> for materials design</h3>
+          <p class="rm-brief">Search model space for higher T<sub>c</sub> and turn the best candidates into guidance for materials design.</p>
+          <p class="rm-nopub">Projected milestone — no publication yet.</p>
+        </div>
+        <div class="rm-panel-art" aria-hidden="true"><svg class="ill" viewBox="0 0 240 180" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path class="f" d="M120 55l90.1 52 0 6-90.1 52-90.1-52 0-6zM210.1 107l-90.1 52-90.1-52M120 159l0 6"/><path class="f t" d="M120 52.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 56.5l-6.4 3.7-6.4-3.7M120 60.2l0 5M108.7 59.3l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM115.2 63l-6.5 3.7-6.4-3.7M108.7 66.7l0 5M131.3 59.3l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM137.7 63l-6.4 3.7-6.5-3.7M131.3 66.7l0 5M97.5 65.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM103.9 69.5l-6.4 3.7-6.4-3.7M97.5 73.2l0 5M120 65.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 69.5l-6.4 3.7-6.4-3.7M120 73.2l0 5M142.5 65.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM148.9 69.5l-6.4 3.7-6.4-3.7M142.5 73.2l0 5M86.2 72.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM92.6 76l-6.4 3.7-6.4-3.7M86.2 79.7l0 5M108.7 72.3l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM115.2 76l-6.5 3.7-6.4-3.7M108.7 79.7l0 5M131.3 72.3l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM137.7 76l-6.4 3.7-6.5-3.7M131.3 79.7l0 5M153.8 72.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM160.2 76l-6.4 3.7-6.4-3.7M153.8 79.7l0 5M75 78.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM81.4 82.5l-6.4 3.7-6.4-3.7M75 86.2l0 5M97.5 78.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM103.9 82.5l-6.4 3.7-6.4-3.7M97.5 86.2l0 5M120 78.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 82.5l-6.4 3.7-6.4-3.7M120 86.2l0 5M142.5 78.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM148.9 82.5l-6.4 3.7-6.4-3.7M142.5 86.2l0 5M165 78.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM171.4 82.5l-6.4 3.7-6.4-3.7M165 86.2l0 5M63.7 85.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM70.1 89l-6.4 3.7-6.4-3.7M63.7 92.7l0 5M86.2 85.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM92.6 89l-6.4 3.7-6.4-3.7M86.2 92.7l0 5M108.7 85.3l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM115.2 89l-6.5 3.7-6.4-3.7M108.7 92.7l0 5M131.3 85.3l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM137.7 89l-6.4 3.7-6.5-3.7M131.3 92.7l0 5M153.8 85.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM160.2 89l-6.4 3.7-6.4-3.7M153.8 92.7l0 5M176.3 85.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM182.7 89l-6.4 3.7-6.4-3.7M176.3 92.7l0 5M52.5 91.8l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM58.9 95.5l-6.4 3.7-6.5-3.7M52.5 99.2l0 5M75 91.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM81.4 95.5l-6.4 3.7-6.4-3.7M75 99.2l0 5M97.5 91.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM103.9 95.5l-6.4 3.7-6.4-3.7M97.5 99.2l0 5M120 91.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 95.5l-6.4 3.7-6.4-3.7M120 99.2l0 5M142.5 91.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM148.9 95.5l-6.4 3.7-6.4-3.7M142.5 99.2l0 5M165 91.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM171.4 95.5l-6.4 3.7-6.4-3.7M165 99.2l0 5M187.5 91.8l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM194 95.5l-6.5 3.7-6.4-3.7M187.5 99.2l0 5M41.2 98.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM47.6 102l-6.4 3.7-6.4-3.7M41.2 105.7l0 5M63.7 98.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM70.1 102l-6.4 3.7-6.4-3.7M63.7 105.7l0 5"/><path d="M85 107L86.2 100L87.4 107M86.2 100V93.8M84.5 100.8L86.2 94.8L87.9 100.8"/><circle class="k" cx="86.2" cy="91.4" r="2.1"/><path class="f t" d="M108.7 98.3l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM115.2 102l-6.5 3.7-6.4-3.7M108.7 105.7l0 5M131.3 98.3l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM137.7 102l-6.4 3.7-6.5-3.7M131.3 105.7l0 5M153.8 98.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM160.2 102l-6.4 3.7-6.4-3.7M153.8 105.7l0 5M176.3 98.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM182.7 102l-6.4 3.7-6.4-3.7M176.3 105.7l0 5M198.8 98.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM205.2 102l-6.4 3.7-6.4-3.7M198.8 105.7l0 5M52.5 104.8l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM58.9 108.5l-6.4 3.7-6.5-3.7M52.5 112.2l0 5M75 104.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM81.4 108.5l-6.4 3.7-6.4-3.7M75 112.2l0 5M97.5 104.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM103.9 108.5l-6.4 3.7-6.4-3.7M97.5 112.2l0 5M120 104.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 108.5l-6.4 3.7-6.4-3.7M120 112.2l0 5"/><path class="t" d="M142.5 109.8l6.4 3.7-6.4 3.7-6.4-3.7z"/><path class="f t" d="M165 104.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM171.4 108.5l-6.4 3.7-6.4-3.7M165 112.2l0 5M187.5 104.8l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM194 108.5l-6.5 3.7-6.4-3.7M187.5 112.2l0 5M63.7 111.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM70.1 115l-6.4 3.7-6.4-3.7M63.7 118.7l0 5M86.2 111.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM92.6 115l-6.4 3.7-6.4-3.7M86.2 118.7l0 5M108.7 111.3l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM115.2 115l-6.5 3.7-6.4-3.7M108.7 118.7l0 5M131.3 111.3l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM137.7 115l-6.4 3.7-6.5-3.7M131.3 118.7l0 5M153.8 111.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM160.2 115l-6.4 3.7-6.4-3.7M153.8 118.7l0 5M176.3 111.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM182.7 115l-6.4 3.7-6.4-3.7M176.3 118.7l0 5M75 117.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM81.4 121.5l-6.4 3.7-6.4-3.7M75 125.2l0 5M97.5 117.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM103.9 121.5l-6.4 3.7-6.4-3.7M97.5 125.2l0 5M120 117.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 121.5l-6.4 3.7-6.4-3.7M120 125.2l0 5M142.5 117.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM148.9 121.5l-6.4 3.7-6.4-3.7M142.5 125.2l0 5M165 117.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM171.4 121.5l-6.4 3.7-6.4-3.7M165 125.2l0 5M86.2 124.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM92.6 128l-6.4 3.7-6.4-3.7M86.2 131.7l0 5M108.7 124.3l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM115.2 128l-6.5 3.7-6.4-3.7M108.7 131.7l0 5M131.3 124.3l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM137.7 128l-6.4 3.7-6.5-3.7M131.3 131.7l0 5M153.8 124.3l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM160.2 128l-6.4 3.7-6.4-3.7M153.8 131.7l0 5M97.5 130.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM103.9 134.5l-6.4 3.7-6.4-3.7M97.5 138.2l0 5M120 130.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 134.5l-6.4 3.7-6.4-3.7M120 138.2l0 5M142.5 130.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM148.9 134.5l-6.4 3.7-6.4-3.7M142.5 138.2l0 5M108.7 137.3l6.5 3.7 0 5-6.5 3.7-6.4-3.7 0-5zM115.2 141l-6.5 3.7-6.4-3.7M108.7 144.7l0 5M131.3 137.3l6.4 3.7 0 5-6.4 3.7-6.5-3.7 0-5zM137.7 141l-6.4 3.7-6.5-3.7M131.3 144.7l0 5M120 143.8l6.4 3.7 0 5-6.4 3.7-6.4-3.7 0-5zM126.4 147.5l-6.4 3.7-6.4-3.7M120 151.2l0 5"/><path class="d" d="M148.9 112.7V62M142.5 116.4V62M136.1 112.7V62"/><path class="f" d="M161 39.9l4.7-3.7-2.2-2.9-4.8 3.7zM166.6 37.3l15.7-12.3-3.9-5.1-15.8 12.3z"/><path class="f" d="M119.5 52a23 23 0 1 0 46 0a23 23 0 1 0 -46 0zM123 52a19.5 19.5 0 1 0 39 0a19.5 19.5 0 1 0 -39 0z"/><g class="a"><path class="f" d="M142.5 45.2l12.2 7.1 0 9.5-12.2 7-12.2-7 0-9.5zM154.7 52.3l-12.2 7-12.2-7M142.5 59.3l0 9.5"/><path class="t" d="M146.6 47.6l-12.2 7M138.5 47.6l12.1 7M150.6 49.9l-12.1 7.1M134.4 49.9l12.2 7.1"/></g></svg></div>
+      </div>
+
+    </div>
+
+  </figure>
+</section>
+
+
+<!-- ================= §02 HIGHLIGHTS ================= -->
+<section class="section" id="highlights" aria-labelledby="h-highlights">
+  <div class="rail" aria-hidden="true"><span class="rail-num">02</span></div>
+  <div class="col">
+    <p class="rail-inline" aria-hidden="true">02</p>
+    <h2 id="h-highlights">Research highlights</h2>
+
+    <article class="entry" id="highlight-1">
+      <div class="entry-text">
+        <p class="entry-xref"><a href="#step-2">Evidence for step 2 <span aria-hidden="true">↑</span></a></p>
+        <p class="venue"><em>Nature Physics</em> <strong class="vol">20</strong>, 1476–1481 (2024)</p>
+        <h3><a class="ext" href="https://www.nature.com/articles/s41567-024-02566-1" rel="noopener">Empowering deep neural quantum states through efficient optimization</a></h3>
+        <p class="authors"><strong>Ao Chen</strong>, Markus Heyl</p>
+        <p class="abstract">Computing the ground state of interacting quantum matter is a long-standing challenge, especially for complex two-dimensional systems. Recent developments have highlighted the potential of neural quantum states to solve the quantum many-body problem by encoding the many-body wavefunction into artificial neural networks. However, this method has faced the critical limitation that existing optimization algorithms are not suitable for training modern large-scale deep network architectures. Here, we introduce a minimum-step stochastic-reconfiguration optimization algorithm, which allows us to train deep neural quantum states with up to 10<sup>6</sup> parameters. We demonstrate our method for paradigmatic frustrated spin-1/2 models on square and triangular lattices, for which our trained deep networks approach machine precision and yield improved variational energies compared to existing results. Equipped with our optimization algorithm, we find numerical evidence for gapless quantum-spin-liquid phases in the considered models, an open question to date.</p>
+        <ul class="linkrow small" role="list">
+          <li><a class="ext" href="https://www.nature.com/articles/s41567-024-02566-1" rel="noopener">Article</a></li>
+          <li><a class="ext" href="https://github.com/ChenAo-Phys/MinSR" rel="noopener">Data &amp; code (MinSR)</a></li>
+        </ul>
+      </div>
+      <figure class="entry-fig">
+        <a class="entry-fig-img" href="assets/img/highlights/minsr-fig1b.webp" target="_blank" rel="noopener" aria-label="Open Fig. 1b at full size">
+          <img src="assets/img/highlights/minsr-fig1b.webp" width="1401" height="743" loading="lazy" decoding="async"
+               alt="Schematic: the quantum metric S, an N_p by N_p matrix equal to O-dagger times O, has only N_s non-zero eigenvalues, which it shares with the much smaller N_s by N_s neural tangent kernel T equal to O times O-dagger.">
+        </a>
+        <figcaption><span class="fig-runin">Fig. 1b</span> MinSR replaces the large quantum metric <i>S</i> with the much smaller neural tangent kernel <i>T</i>, which has the same non-zero eigenvalues. From the article (CC BY 4.0).</figcaption>
+      </figure>
+    </article>
+
+    <article class="entry" id="highlight-2">
+      <div class="entry-text">
+        <p class="entry-xref"><a href="#step-3">Evidence for step 3 <span aria-hidden="true">↑</span></a></p>
+        <p class="venue"><span class="mono">arXiv:2610.30321</span> (October 2026) <span class="chip">Preprint</span></p>
+        <h3><a class="ext" href="https://arxiv.org/abs/2610.30321" rel="noopener">Extreme competition between stripes and superconductivity in the hole-doped Hubbard model</a></h3>
+        <p class="authors"><strong>Ao Chen</strong>, Johnnie Gray, Si-Jing Du, Garnet Kin-Lic Chan</p>
+        <p class="abstract">The two-dimensional Hubbard model was originally proposed as the minimal model of uniform <em>d</em>-wave superconductivity in the cuprate high-temperature superconductors, but recent calculations with relevant parameters in a realistic doping regime have often found other ground states. Further, uncertainty remains over such results due to the intrinsic bias of different computational methods. Here we address this uncertainty through state-of-the-art neural tensor network and neural backflow state simulations, enabled by large-scale GPU computation, that together reach an unprecedented variational accuracy on lattices with up to 1024 sites. At 1/8 doping in the pure Hubbard model, as well as with next-nearest-neighbor hopping relevant to the hole-doped cuprates, we reveal a near degeneracy among a low-energy uniform <em>d</em>-wave state, superconducting stripes, and non-superconducting stripe states.</p>
+        <ul class="linkrow small" role="list">
+          <li><a class="ext" href="https://arxiv.org/abs/2610.30321" rel="noopener">arXiv</a></li>
+          <li><a class="ext" href="https://github.com/ChenAo-Phys/NeuralHubbard" rel="noopener">Data &amp; code (NeuralHubbard)</a></li>
+        </ul>
+      </div>
+      <figure class="entry-fig">
+        <a class="entry-fig-img" href="assets/img/highlights/hubbard-fig1.webp" target="_blank" rel="noopener" aria-label="Open Fig. 1 at full size">
+          <img src="assets/img/highlights/hubbard-fig1.webp" width="1600" height="882" loading="lazy" decoding="async"
+               alt="Top: the Hubbard model and three nearly degenerate candidate states at 1/8 hole doping: stripe, stripe plus superconductivity, and uniform d-wave superconductivity. Bottom: BCS backflow, Pfaffian backflow and NN-fPEPS ansätze, with a schematic of how each ansatz ranks the three states in variational energy.">
+        </a>
+        <figcaption><span class="fig-runin">Fig. 1</span> Nearly degenerate candidate states at 1/8 hole doping, and the bias each variational ansatz carries toward them.</figcaption>
+      </figure>
+    </article>
+  </div>
+</section>
+
+
+<!-- ================= §03 EXPERIENCE ================= -->
+<section class="section" id="experience" aria-labelledby="h-experience">
+  <div class="rail" aria-hidden="true"><span class="rail-num">03</span></div>
+  <div class="col">
+    <p class="rail-inline" aria-hidden="true">03</p>
+    <h2 id="h-experience">Experience</h2>
+
+    <div class="cvcols-head" aria-hidden="true">
+      <p class="cvcol-label">Education</p>
+      <p class="cvcol-label">Research</p>
+    </div>
+    <!-- Two-column timeline (assets/js/main.js): with JS on wide screens, each
+         card's top = its end date and its bar length = its duration, on one
+         shared vertical time scale. Without JS it is a plain newest-first list. -->
+    <ul class="cvlist" role="list">
+      <li class="cvrow cv-research" data-start="2025-05" data-end="present">
+        <p class="cvdate mono">May 2025 – present</p>
+        <div class="cvbody">
+          <p class="cvtag cvtag-research">Research</p>
+          <p class="cvrole">Postdoctoral researcher</p>
+          <p class="cvmeta"><a class="ext" href="https://www.chan-lab.caltech.edu/" rel="noopener">The Chan Group</a>, California Institute of Technology, Pasadena, USA</p>
+        </div>
+      </li>
+      <li class="cvrow cv-edu" data-start="2022-04" data-end="2025-04">
+        <p class="cvdate mono">Apr 2022 – Apr 2025</p>
+        <div class="cvbody">
+          <p class="cvtag cvtag-edu">Education</p>
+          <p class="cvrole">PhD in Physics — <span class="distinction">summa cum laude</span></p>
+          <p class="cvmeta"><a class="ext" href="https://www.uni-augsburg.de/en/fakultaet/mntf/physik/groups/theo3/" rel="noopener">Theoretical Physics III</a>, University of Augsburg, Augsburg, Germany</p>
+        </div>
+      </li>
+      <li class="cvrow cv-research" data-start="2024-09" data-end="2024-12">
+        <p class="cvdate mono">Sep 2024 – Dec 2024</p>
+        <div class="cvbody">
+          <p class="cvtag cvtag-research">Research</p>
+          <p class="cvrole">Pre-doctoral researcher</p>
+          <p class="cvmeta"><a class="ext" href="https://www.simonsfoundation.org/flatiron/center-for-computational-quantum-physics/" rel="noopener">Center for Computational Quantum Physics</a>, Flatiron Institute, New York, USA</p>
+        </div>
+      </li>
+      <li class="cvrow cv-edu" data-start="2019-09" data-end="2022-02">
+        <p class="cvdate mono">Sep 2019 – Feb 2022</p>
+        <div class="cvbody">
+          <p class="cvtag cvtag-edu">Education</p>
+          <p class="cvrole">MSc in Physics</p>
+          <p class="cvmeta"><a class="ext" href="https://www.phys.ethz.ch/" rel="noopener">ETH Zurich</a>, Zurich, Switzerland</p>
+        </div>
+      </li>
+      <li class="cvrow cv-edu" data-start="2015-09" data-end="2019-06">
+        <p class="cvdate mono">Sep 2015 – Jun 2019</p>
+        <div class="cvbody">
+          <p class="cvtag cvtag-edu">Education</p>
+          <p class="cvrole">BSc in Physics</p>
+          <p class="cvmeta">Fudan University, Shanghai, China</p>
+        </div>
+      </li>
+      <li class="cvrow cv-research" data-start="2018-06" data-end="2018-08">
+        <p class="cvdate mono">Jun 2018 – Aug 2018</p>
+        <div class="cvbody">
+          <p class="cvtag cvtag-research">Research</p>
+          <p class="cvrole">Research intern</p>
+          <p class="cvmeta"><a class="ext" href="https://www.ilo.k.u-tokyo.ac.jp/summer_en" rel="noopener">University of Tokyo Summer Internship Program</a>, Tokyo, Japan</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+<!-- ================= §04 SOFTWARE ================= -->
+<section class="section" id="software" aria-labelledby="h-software">
+  <div class="rail" aria-hidden="true"><span class="rail-num">04</span></div>
+  <div class="col">
+    <p class="rail-inline" aria-hidden="true">04</p>
+    <h2 id="h-software">Software</h2>
+    <ul class="repolist" role="list">
+      <li class="repo">
+        <p class="repo-name"><a class="mono ext" href="https://github.com/ChenAo-Phys/quantax" rel="noopener">quantax</a></p>
+        <p class="repo-desc">Flexible and scalable neural quantum states in JAX.<br><a class="ext" href="https://chenao-phys.github.io/quantax/" rel="noopener">Documentation</a></p>
+      </li>
+      <li class="repo">
+        <p class="repo-name"><a class="mono ext" href="https://github.com/ChenAo-Phys/lrux" rel="noopener">lrux</a></p>
+        <p class="repo-desc">Fast low-rank updates (LRU) of matrix determinants and Pfaffians in JAX.<br><a class="ext" href="https://chenao-phys.github.io/lrux/" rel="noopener">Documentation</a> · <a class="ext" href="https://arxiv.org/abs/2602.05255" rel="noopener">Paper</a></p>
+      </li>
+      <li class="repo">
+        <p class="repo-name"><a class="mono ext" href="https://github.com/ChenAo-Phys/fermix" rel="noopener">fermix</a></p>
+        <p class="repo-desc">Fast batched determinants and Pfaffians on GPU with JAX/Pallas kernels.</p>
+      </li>
+    </ul>
+    <p class="repo-contrib">I have also contributed to <a class="mono ext" href="https://github.com/QuSpin/QuSpin" rel="noopener">QuSpin</a>, <a class="mono ext" href="https://github.com/patrick-kidger/equinox" rel="noopener">Equinox</a>, <a class="mono ext" href="https://github.com/jcmgray/autoray" rel="noopener">autoray</a>, and <a class="mono ext" href="https://github.com/jcmgray/symmray" rel="noopener">symmray</a>.</p>
+  </div>
+</section>
+
+
+<!-- ================= §05 PUBLICATIONS ================= -->
+<section class="section" id="publications" aria-labelledby="h-publications">
+  <div class="rail" aria-hidden="true"><span class="rail-num">05</span></div>
+  <div class="col">
+    <p class="rail-inline" aria-hidden="true">05</p>
+    <h2 id="h-publications">Publications</h2>
+
+    <div class="pubgroup">
+      <h3 class="year">2026</h3>
+      <ol class="publist" role="list">
+        <li class="pub">
+          <span class="pub-idx mono">01</span>
+          <div class="pub-body">
+            <p class="authors"><strong>Ao Chen</strong>, Johnnie Gray, Si-Jing Du, Garnet Kin-Lic Chan</p>
+            <p class="pub-title"><a class="ext" href="https://arxiv.org/abs/2610.30321" rel="noopener">Extreme competition between stripes and superconductivity in the hole-doped Hubbard model</a></p>
+            <p class="pub-meta"><span class="mono">arXiv:2610.30321</span> (2026) · <a class="ext" href="https://github.com/ChenAo-Phys/NeuralHubbard" rel="noopener">Data &amp; code</a> <span class="chip">Preprint</span></p>
+          </div>
+        </li>
+        <li class="pub">
+          <span class="pub-idx mono">02</span>
+          <div class="pub-body">
+            <p class="authors">Si-Jing Du, Johnnie Gray, <strong>Ao Chen</strong>, Garnet Kin-Lic Chan</p>
+            <p class="pub-title"><a class="ext" href="https://arxiv.org/abs/2608.27861" rel="noopener">Vectorized Symmetric and Fermionic Tensor Network Implementations for GPU-Accelerated Variational Monte Carlo</a></p>
+            <p class="pub-meta"><span class="mono">arXiv:2608.27861</span> (2026) <span class="chip">Preprint</span></p>
+          </div>
+        </li>
+        <li class="pub">
+          <span class="pub-idx mono">03</span>
+          <div class="pub-body">
+            <p class="authors">Hannah Lange, <strong>Ao Chen</strong>, Antoine Georges, Fabian Grusdt, Annabelle Bohrdt, Christopher Roth</p>
+            <p class="pub-title"><a class="ext" href="https://arxiv.org/abs/2602.10091" rel="noopener">Simulating superconductivity in mixed-dimensional <em>t</em><sub>∥</sub>-<em>J</em><sub>∥</sub>-<em>J</em><sub>⊥</sub> bilayers with neural quantum states</a></p>
+            <p class="pub-meta"><span class="mono">arXiv:2602.10091</span> (2026) <span class="chip">Preprint</span></p>
+          </div>
+        </li>
+        <li class="pub">
+          <span class="pub-idx mono">04</span>
+          <div class="pub-body">
+            <p class="authors"><strong>Ao Chen</strong>, Christopher Roth</p>
+            <p class="pub-title"><a class="ext" href="https://arxiv.org/abs/2602.05255" rel="noopener">lrux: Fast low-rank updates of determinants and Pfaffians in JAX</a></p>
+            <p class="pub-meta"><span class="mono">arXiv:2602.05255</span> (2026) <span class="chip">Preprint</span></p>
+          </div>
+        </li>
+        <li class="pub">
+          <span class="pub-idx mono">05</span>
+          <div class="pub-body">
+            <p class="authors">Yinzhanghao Zhou, Tsung-Han Lee, <strong>Ao Chen</strong>, Nicola Lanatà, Hong Guo</p>
+            <p class="pub-title"><a class="ext" href="https://doi.org/10.1103/rkd8-q6yl" rel="noopener">Neural-Quantum-States Impurity Solver for Quantum Embedding Problems</a></p>
+            <p class="pub-meta"><em>Phys. Rev. B</em> <strong class="vol">113</strong>, 155123 (2026)</p>
+          </div>
+        </li>
+        <li class="pub">
+          <span class="pub-idx mono">06</span>
+          <div class="pub-body">
+            <p class="authors"><strong>Ao Chen</strong>, Zhou-Quan Wan, Anirvan Sengupta, Antoine Georges, Christopher Roth</p>
+            <p class="pub-title"><a class="ext" href="https://doi.org/10.1073/pnas.2535288123" rel="noopener">Neural Network-Augmented Pfaffian Wave-functions for Scalable Simulations of Interacting Fermions</a></p>
+            <p class="pub-meta"><em>Proc. Natl. Acad. Sci. U.S.A.</em> <strong class="vol">123</strong>(35), e2535288123 (2026)</p>
+          </div>
+        </li>
+        <li class="pub">
+          <span class="pub-idx mono">07</span>
+          <div class="pub-body">
+            <p class="authors">Si-Jing Du, <strong>Ao Chen</strong>, Garnet Kin-Lic Chan</p>
+            <p class="pub-title"><a class="ext" href="https://doi.org/10.1103/x8vl-qf14" rel="noopener">Neuralized Fermionic Tensor Networks for Quantum Many-Body Systems</a></p>
+            <p class="pub-meta"><em>Phys. Rev. B</em> <strong class="vol">113</strong>, 085134 (2026)</p>
+          </div>
+        </li>
+        <li class="pub">
+          <span class="pub-idx mono">08</span>
+          <div class="pub-body">
+            <p class="authors"><strong>Ao Chen</strong><span class="eq">*</span>, Vighnesh Dattatraya Naik<span class="eq">*</span>, Markus Heyl</p>
+            <p class="pub-title"><a class="ext" href="https://doi.org/10.1103/7xwp-25y9" rel="noopener">Convolutional transformer wave functions</a></p>
+            <p class="pub-meta"><em>Phys. Rev. Research</em> <strong class="vol">8</strong>, L022040 (2026) <span class="note">* equal contribution</span></p>
+          </div>
+        </li>
+      </ol>
+    </div>
+
+    <div class="pubgroup">
+      <h3 class="year">2025</h3>
+      <ol class="publist" role="list">
+        <li class="pub">
+          <span class="pub-idx mono">09</span>
+          <div class="pub-body">
+            <p class="authors">Christopher Roth, <strong>Ao Chen</strong>, Anirvan Sengupta, Antoine Georges</p>
+            <p class="pub-title"><a class="ext" href="https://arxiv.org/abs/2511.07566" rel="noopener">Superconductivity in the two-dimensional Hubbard model revealed by neural quantum states</a></p>
+            <p class="pub-meta"><span class="mono">arXiv:2511.07566</span> (2025) <span class="chip">Preprint</span></p>
+          </div>
+        </li>
+        <li class="pub">
+          <span class="pub-idx mono">10</span>
+          <div class="pub-body">
+            <p class="authors"><strong>Ao Chen</strong></p>
+            <p class="pub-title">Large-scale simulation of deep neural quantum states</p>
+            <p class="pub-meta">PhD thesis, University of Augsburg (2025) <span class="chip">Thesis</span></p>
+          </div>
+        </li>
+      </ol>
+    </div>
+
+    <div class="pubgroup">
+      <h3 class="year">2024</h3>
+      <ol class="publist" role="list">
+        <li class="pub">
+          <span class="pub-idx mono">11</span>
+          <div class="pub-body">
+            <div class="authors">A. O. Scheie, Minseong Lee, Kevin Wang, … <strong>Ao Chen</strong>, Vivien S. Zapf, Markus Heyl, … D. Alan Tennant
+              <details class="authors-all">
+                <summary>Show all 21 authors</summary>
+                <span>A. O. Scheie, Minseong Lee, Kevin Wang, P. Laurell, E. S. Choi, D. Pajerowski, Qingming Zhang, Jie Ma, H. D. Zhou, Sangyun Lee, Chao Huan, S. M. Thomas, M. O. Ajeesh, P. F. S. Rosa, <strong>Ao Chen</strong>, Vivien S. Zapf, Markus Heyl, Cristian D. Batista, Elbio Dagotto, Joel E. Moore, D. Alan Tennant</span>
+              </details>
+            </div>
+            <p class="pub-title"><a class="ext" href="https://arxiv.org/abs/2406.17773" rel="noopener">Spectrum and low-temperature bulk properties of triangular quantum spin liquid candidate NaYbSe<sub>2</sub></a></p>
+            <p class="pub-meta"><span class="mono">arXiv:2406.17773</span> (2024) <span class="chip">Preprint</span></p>
+          </div>
+        </li>
+        <li class="pub">
+          <span class="pub-idx mono">12</span>
+          <div class="pub-body">
+            <p class="authors">Hongzheng Zhao, <strong>Ao Chen</strong>, Shu-Wei Liu, Marin Bukov, Markus Heyl, Roderich Moessner</p>
+            <p class="pub-title"><a class="ext" href="https://arxiv.org/abs/2406.06198" rel="noopener">Learning effective Hamiltonians for adaptive time-evolution quantum algorithms</a></p>
+            <p class="pub-meta"><span class="mono">arXiv:2406.06198</span> (2024) <span class="chip">Preprint</span></p>
+          </div>
+        </li>
+        <li class="pub">
+          <span class="pub-idx mono">13</span>
+          <div class="pub-body">
+            <p class="authors"><strong>Ao Chen</strong>, Markus Heyl</p>
+            <p class="pub-title"><a class="ext" href="https://www.nature.com/articles/s41567-024-02566-1" rel="noopener">Empowering deep neural quantum states through efficient optimization</a></p>
+            <p class="pub-meta"><em>Nature Physics</em> <strong class="vol">20</strong>, 1476–1481 (2024) · <a class="ext" href="https://github.com/ChenAo-Phys/MinSR" rel="noopener">Data &amp; code</a></p>
+          </div>
+        </li>
+      </ol>
+    </div>
+
+    <div class="pubgroup">
+      <h3 class="year">Earlier</h3>
+      <ol class="publist" role="list">
+        <li class="pub">
+          <span class="pub-idx mono">14</span>
+          <div class="pub-body">
+            <p class="authors"><strong>Ao Chen</strong>, Kenny Choo, Nikita Astrakhantsev, Titus Neupert</p>
+            <p class="pub-title"><a class="ext" href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.L022026" rel="noopener">Neural network evolution strategy for solving quantum sign structures</a></p>
+            <p class="pub-meta"><em>Phys. Rev. Research</em> <strong class="vol">4</strong>, L022026 (2022)</p>
+          </div>
+        </li>
+        <li class="pub">
+          <span class="pub-idx mono">15</span>
+          <div class="pub-body">
+            <p class="authors">Nikita Astrakhantsev, Tom Westerhout, Apoorv Tiwari, Kenny Choo, <strong>Ao Chen</strong>, Mark H. Fischer, Giuseppe Carleo, Titus Neupert</p>
+            <p class="pub-title"><a class="ext" href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.11.041021" rel="noopener">Broken-symmetry ground states of the Heisenberg model on the pyrochlore lattice</a></p>
+            <p class="pub-meta"><em>Phys. Rev. X</em> <strong class="vol">11</strong>, 041021 (2021)</p>
+          </div>
+        </li>
+        <li class="pub">
+          <span class="pub-idx mono">16</span>
+          <div class="pub-body">
+            <p class="authors">Yuting Lou, <strong>Ao Chen</strong>, Erika Yoshida, Yu Chen</p>
+            <p class="pub-title"><a class="ext" href="https://doi.org/10.1098/rsos.190012" rel="noopener">Homeostasis and systematic ageing as non-equilibrium phase transitions in computational multicellular organizations</a></p>
+            <p class="pub-meta"><em>R. Soc. Open Sci.</em> <strong class="vol">6</strong>, 190012 (2019)</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+
+    <p class="section-foot"><a class="ext" href="https://scholar.google.com/citations?user=ZEzFjXsAAAAJ&amp;hl=en" rel="noopener">Full citation record on Google Scholar</a></p>
+  </div>
+</section>
+
+
+<!-- ================= §06 CONTACT ================= -->
+<section class="section" id="contact" aria-labelledby="h-contact">
+  <div class="rail" aria-hidden="true"><span class="rail-num">06</span></div>
+  <div class="col">
+    <p class="rail-inline" aria-hidden="true">06</p>
+    <h2 id="h-contact">Contact</h2>
+    <p class="contact-line">
+      <a class="mono" id="email-link" href="mailto:chenao.phys@gmail.com">chenao.phys@gmail.com</a>
+      <button class="copy-btn" id="copy-email" type="button" data-email="chenao.phys@gmail.com" hidden>Copy</button>
+      <span class="visually-hidden" id="copy-status" aria-live="polite"></span>
+    </p>
+    <ul class="iconlinks iconlinks-contact" role="list">
+      <li><a class="iconbtn" href="assets/files/AoChen_CV.pdf" aria-label="CV (PDF)"><svg class="glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M8.5 12.5h7M8.5 15.5h7M8.5 18.5h4"/></svg><span class="tip" aria-hidden="true">CV (PDF)</span></a></li>
+      <li><a class="iconbtn" href="mailto:chenao.phys@gmail.com" aria-label="Email"><svg class="glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="M3.6 7l8.4 6.2 8.4-6.2"/></svg><span class="tip" aria-hidden="true">Email</span></a></li>
+      <li><a class="iconbtn" href="https://github.com/ChenAo-Phys" rel="noopener" aria-label="GitHub"><svg class="glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path fill="currentColor" stroke="none" transform="translate(3 3) scale(1.125)" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg><span class="tip" aria-hidden="true">GitHub</span></a></li>
+      <li><a class="iconbtn" href="https://scholar.google.com/citations?user=ZEzFjXsAAAAJ&amp;hl=en" rel="noopener" aria-label="Google Scholar"><svg class="glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path fill="currentColor" stroke="none" transform="translate(3 3) scale(.75)" d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg><span class="tip" aria-hidden="true">Google Scholar</span></a></li>
+    </ul>
+    <p class="contact-line muted">Pasadena, California</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="colophon">
+  <p>© 2026 Ao Chen</p>
+  <p>Static HTML and CSS. System typefaces. Last updated November 2026.</p>
+</footer>
+
+</div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
